@@ -1,0 +1,10 @@
+* {
+	font-family: Barlow;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+svg {
+	width: 100vw;
+	height: 80vh;
+}
