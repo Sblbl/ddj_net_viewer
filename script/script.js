@@ -5,7 +5,7 @@ let mon = ['January', 'February', 'March',
 		]
 
 document.addEventListener('DOMContentLoaded', function(event) { 
-	let file = '/JSON/2013_1.json'
+	let file = 'JSON/2013_1.json'
 	let $_datalist = $('#steps')
 	let props = {'rt' : true, 'ment' : true}
 	plot(file)
@@ -50,8 +50,8 @@ function get_file(n){
 	m = n%12 + 1
 	y = 2012+Math.floor(n/12)+1
 	$('#date').text(mon[m-1] + ' ' + y)
-	console.log('/JSON/' + y + '_' + m + '.json')
-	return ('/JSON/' + y + '_' + m + '.json')
+	console.log('JSON/' + y + '_' + m + '.json')
+	return ('JSON/' + y + '_' + m + '.json')
 
 }
 
