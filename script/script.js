@@ -1,217 +1,113 @@
-let mon = ['January', 'February', 'March',
-			'April', 'May', 'June',
-			'July', 'August', 'September',
-			'October', 'November', 'December'
-		]
+const svg = d3.select('#viz')
+const colorin = '#00f',
+		colorout = '#f00',
+		colornone = '#ccc',
+		width = $(document).width(),
+		radius = width / 2
+
+const line = d3.lineRadial()
+		.curve(d3.curveBundle.beta(0.85))
+		.radius(d => d.y)
+		.angle(d => d.x)
+
+const tree = d3.cluster()
+	.size([2 * Math.PI, radius - 100])
 
 document.addEventListener('DOMContentLoaded', function(event) { 
-	let file = 'JSON/2013_1.json'
-	let $_datalist = $('#steps')
-	let props = {'rt' : true, 'ment' : true}
-	plot(file)
-
-	for(let i = 0, j = 85; i < j; i++) {
-		$_datalist.append(`<option>${i}</option>`) 
-	}
-
-	$('#slider').change(function(){
-		let val=$(this).val()
-		file = get_file(val)
-		plot(file)
-  	})
-
-  	$('#toggle_rt').on('change', (e) => {
-		props['rt'] = $(e.target).is(':checked')
-		update_css(props)
-	})
-	$('#toggle_ment').on('change', (e) => {
-		props['ment'] = $(e.target).is(':checked')
-		update_css(props)
-	})
-	
+	svg.attr("viewBox", [-width / 2, -width / 2, width, width])
+	plot('JSON/net.json') 
 })
-
-function update_css(props) {
-	if (props['rt'] == true) {
-		$('.retweet').css('visibility', 'visible')
-	} else {
-		$('.retweet').css('visibility', 'hidden')
-	}
-	if (props['ment'] == true) {
-		$('.mention').css('visibility', 'visible')
-	} else {
-		$('.mention').css('visibility', 'hidden')
-	}
-	
-}
-
-
-function get_file(n){
-	m = n%12 + 1
-	y = 2012+Math.floor(n/12)+1
-	$('#date').text(mon[m-1] + ' ' + y)
-	console.log('JSON/' + y + '_' + m + '.json')
-	return ('JSON/' + y + '_' + m + '.json')
-
-}
 
 function plot(file) {
 	fetch(file)
 		.then(response => response.json())
-		.then(json => plot_graph(json))
+		.then(json => bilevel_edge(json))
 }
 
-function plot_graph(data, options={'rt' : true, 'ment' : true}) {
-	const width = window.innerWidth,
-		height = window.innerHeight - 80- 64 - 48,
-		nodes = data.nodes.map(d => Object.create(d)),
-		links = data.links.map(d => Object.create(d))
 
-	const simulation = d3.forceSimulation(nodes)
-		.force('link', d3.forceLink(links).id(d => d.name).distance(1).strength(.4))
-		.force('charge', d3.forceManyBody())
-		.force('center', d3.forceCenter(width / 2, height / 2))
+function bilevel_edge(data) {
+
+	data = create_data(data)
+
+	const root = tree(bilink(d3.hierarchy(data)
+		.sort((a, b) => d3.ascending(a.height, b.height) || d3.ascending(a.data.id, b.data.id))))
 
 
-	const svg = d3.select('svg')
+	console.log(root.leaves())
 
-	const base_group = svg.append('g').attr('id', 'net_container')
-
-	const zoom = d3.zoom()
-		.scaleExtent([0.1, 3])
-		.translateExtent([[-1000, -1000], [width + 1000, height + 1000]])
-		.on('zoom', e => base_group.attr('transform', e.transform))
-
-	svg.call(zoom)
-
-	drag = simulation => {
-
-		function dragstarted(event) {
-			if (!event.active) simulation.alphaTarget(0.01).restart()
-			event.subject.fx = event.subject.x
-			event.subject.fy = event.subject.y
-		}
-
-		function dragged(event) {
-			event.subject.fx = event.x
-			event.subject.fy = event.y
-		}
-
-		function dragended(event) {
-			if (!event.active) simulation.alphaTarget(0)
-			event.subject.fx = null
-			event.subject.fy = null
-		}
-
-		return d3.drag()
-			.on('start', dragstarted)
-			.on('drag', dragged)
-			.on('end', dragended)
-	}
-
-	let link = base_group
-		.append('g')
-		.selectAll('line')
-		.data(links)
-		.enter()
-		.append('line')
-		.attr('class', d=>{
-			if (d.type == 'mention'){
-				return 'links mention'
-			} else {
-				return 'links retweet'
-			} 
-		})
-		.attr('stroke-width', d => {
-			return d.weight * 0.9
-		})
-
-	let node = base_group.append('g')
-		.attr('class', 'nodes')
+	const node = svg.append('g')
+		.attr('font-family', 'sans-serif')
+		.attr('font-size', 10)
 		.selectAll('g')
-		.data(nodes)
-		.enter()
-		.append('a')
-		.append('g')
-
-	let circles = node.append('circle')
-		.attr('class', 'net_node')
-		.attr('rt', d => {
-			return d.retweets
-		})
-		.attr('mentions', d => {
-			return d.mentions
-		})
-		.attr('class', d => {
-			return d.class
-		})
-		.attr('fill', '#00BFFF')
-		.attr('opacity', '.8')
-		.attr('r', d => {
-			return (Math.log10(d.mentions + d.retweets + 1)*5)
-		})
-		.call(drag(simulation))
-		.on('mouseover.fade', fade(0.1))
-		.on('mouseout.fade', fade(1))
-
-	let lables = node
+		.data(root.leaves())
+		.join('g')
+			.attr('transform', d => `rotate(${d.x * 180 / Math.PI - 90}) translate(${d.y},0)`)
 		.append('text')
-		.attr('class', 'net_text')
-		.attr('x', 10)
-		.attr('y', -8)
-		.text(d => {
-			if (d.retweets + d.mentions > 5) {
-				return (d.name)
-			}
-		})
+			.attr('dy', '0.31em')
+			.attr('x', d => d.x < Math.PI ? 6 : -6)
+			.attr('text-anchor', d => d.x < Math.PI ? 'start' : 'end')
+			.attr('transform', d => d.x >= Math.PI ? 'rotate(180)' : null)
+			.text(d => d.data.id)
+			.each(function(d) { d.text = this })
+			.on('mouseover', overed)
+			.on('mouseout', outed)
+			.call(text => text.append('title').text(d => `${d.data.id} 
+						${d.outgoing.length} outgoing 
+					${d.incoming.length} incoming`
+			))
 
+	const link = svg.append('g')
+		.attr('stroke', colornone)
+		.attr('fill', 'none')
+		.selectAll('path')
+		.data(root.leaves().flatMap(leaf => leaf.outgoing))
+		.join('path')
+			.style('mix-blend-mode', 'multiply')
+			.attr('d', ([i, o]) => line(i.path(o)))
+			.each(function(d) { d.path = this })
 
-	node.append('title')
-	  	.text(d => { return d.name })
-
-
-
-	simulation
-		.nodes(nodes)
-		.on('tick', ticked)
-
-	simulation.force('link')
-		.links(links)
-
-	function ticked() {
-		link
-			.attr('x1', d => { return d.source.x })
-			.attr('y1', d => { return d.source.y })
-			.attr('x2', d => { return d.target.x })
-			.attr('y2', d => { return d.target.y })
-
-		node
-			.attr('transform', d => {
-				return 'translate(' + d.x + ',' + d.y + ')'
-			})
+	function overed(event, d) {
+		link.style('mix-blend-mode', null)
+		d3.select(this).attr('font-weight', 'bold')
+		d3.selectAll(d.incoming.map(d => d.path)).attr('stroke', colorin).raise()
+		d3.selectAll(d.incoming.map(([d]) => d.text)).attr('fill', colorin).attr('font-weight', 'bold')
+		d3.selectAll(d.outgoing.map(d => d.path)).attr('stroke', colorout).raise()
+		d3.selectAll(d.outgoing.map(([, d]) => d.text)).attr('fill', colorout).attr('font-weight', 'bold')
 	}
 
-	const linkedByIndex = {};
-		links.forEach(d => {
-		linkedByIndex[`${d.source.index},${d.target.index}`] = 1;
-	});
+	function outed(event, d) {
+		link.style('mix-blend-mode', 'multiply')
+		d3.select(this).attr('font-weight', null)
+		d3.selectAll(d.incoming.map(d => d.path)).attr('stroke', null)
+		d3.selectAll(d.incoming.map(([d]) => d.text)).attr('fill', null).attr('font-weight', null)
+		d3.selectAll(d.outgoing.map(d => d.path)).attr('stroke', null)
+		d3.selectAll(d.outgoing.map(([, d]) => d.text)).attr('fill', null).attr('font-weight', null)
+	}
+}
 
-	function isConnected(a, b) {
-		//console.log(a.index, b.index)
-		return linkedByIndex[`${a.index},${b.index}`] || linkedByIndex[`${b.index},${a.index}`] || a.index == b.index;
+function bilink(root) {
+	const map = new Map(root.leaves().map(d => [d.data.id, d]))
+
+	for (const d of root.leaves()) d.incoming = [], d.outgoing = d.data.targets.map(i => [d, map.get(i)])
+	for (const d of root.leaves()) for (const o of d.outgoing) o[1].incoming.push(o)
+	return root
+}
+
+function create_data(graph) {
+	const {nodes, links} = graph
+	const groupById = new Map
+	const nodeById = new Map(nodes.map(node => [node.id, node]))
+
+	for (const node of nodes) {
+		let group = groupById.get(node.group)
+		if (!group) groupById.set(node.group, group = {id: node.group, children: []})
+		group.children.push(node)
+		node.targets = []
 	}
 
-	function fade(opacity) {
-		return (d, i) => {
-			node.style('stroke-opacity', function (o) {
-				const thisOpacity = isConnected(i, o) ? 1 : opacity;
-				this.setAttribute('fill-opacity', thisOpacity);
-				//console.log(i, o)
-				return thisOpacity;
-			});
-		  
-			link.style('stroke-opacity', o => (o.source === i || o.target === i ? 1 : opacity));
-
-		};
+	for (const {source: sourceId, target: targetId} of links) {
+		nodeById.get(sourceId).targets.push(targetId)
 	}
+
+	return {children: [...groupById.values()]}	
 }
