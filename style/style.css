@@ -10,7 +10,7 @@ main {
 
 svg {
 	width: 100vw;
-	height: 80vh;
+	height: 90vh;
 }
 
 #slider {
@@ -18,14 +18,9 @@ svg {
 	bottom: 0;
 }
 
-.mention {
-	stroke: #000;
-	opacity: .4;
-}
-
-.retweet {
-	stroke: #8080;	
-	opacity: .4;
+.link {
+	stroke: #F0FFFF;
+	opacity: .8;
 }
 
 .switch_wrapper{
