@@ -84,6 +84,7 @@ function bilevel_edge(data) {
 		d3.selectAll(d.outgoing.map(([, d]) => d.text)).attr('fill', null).attr('font-weight', null)
 	}
 }
+/**/
 
 function bilink(root) {
 	const map = new Map(root.leaves().map(d => [d.data.id, d]))
