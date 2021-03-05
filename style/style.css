@@ -13,80 +13,47 @@ svg {
 	height: 90vh;
 }
 
-#slider {
-	width: 96vw;
+/*LEGEND*/
+#legend {
+	display: block;
+	position: absolute;
+	left: 0;
 	bottom: 0;
+	padding: 12px;
+	background-color: #FFFACD;
 }
 
-.link {
-	stroke: #F0FFFF;
-	opacity: .8;
+#legend.hidden {
+	display: none;
 }
 
-.switch_wrapper{
-	display: inline-block;
-	margin-right: 24px;
+/*VIZ*/
+.node {
+  font-size: 10pt;
+  cursor: pointer; 
 }
 
-.switch {
-  position: relative;
-  display: inline-block;
-  width: 30px;
-  height: 17px;
-  margin-bottom: 12px;
+.focused text{
+	opacity: .5;
 }
 
-/* Hide default HTML checkbox */
-.switch input {
-  opacity: 0;
-  width: 0;
-  height: 0;
+.focused .selected {
+	opacity: 1;
+	font-weight: 700;
 }
 
-/* The slider */
-.toggle {
-  position: absolute;
-  cursor: pointer;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #ccc;
-  -webkit-transition: .4s;
-  transition: .4s;
+path.colorin {
+	stroke: #4169E1;
+}
+text.colorin {
+	fill: #4169E1;
+	font-weight: 700;
 }
 
-.toggle:before {
-  position: absolute;
-  content: "";
-  height: 13px;
-  width: 13px;
-  left: 2px;
-  bottom: 2px;
-  background-color: white;
-  -webkit-transition: .4s;
-  transition: .4s;
+path.colorout {
+	stroke: #FA8072;
 }
-
-input:checked + .toggle {
-  background-color: #2196F3;
-}
-
-input:focus + .toggle {
-  box-shadow: 0 0 1px #2196F3;
-}
-
-input:checked + .toggle:before {
-  -webkit-transform: translateX(13px);
-  -ms-transform: translateX13px);
-  transform: translateX(13px);
-}
-
-/* Rounded sliders */
-.toggle.round {
-  border-radius: 17px;
-}
-
-.toggle.round:before {
-  border-radius: 50%;
+text.colorout {
+	fill: #FA8072;
+	font-weight: 700;
 }
