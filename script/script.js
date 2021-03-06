@@ -84,7 +84,7 @@ function bilevel_edge(data) {
 		$('#legend').toggleClass('hidden')
 		$('#username').text(this.innerHTML)
 		$('#in_ment').text(this.getAttribute('ment_in'))
-		$('#out_ment').text(this.getAttribute('ment_in'))
+		$('#out_ment').text(this.getAttribute('ment_out'))
 	}
 
 	function outed(event, d) {
