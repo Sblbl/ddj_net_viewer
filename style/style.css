@@ -29,7 +29,7 @@ svg {
 
 /*VIZ*/
 .node {
-  font-size: 10pt;
+  font-size: 8pt;
   cursor: pointer; 
 }
 
@@ -44,16 +44,20 @@ svg {
 
 path.colorin {
 	stroke: #4169E1;
+	opacity: 1;
 }
 text.colorin {
 	fill: #4169E1;
 	font-weight: 700;
+	opacity: 1;
 }
 
 path.colorout {
 	stroke: #FA8072;
+	opacity: 1;
 }
 text.colorout {
 	fill: #FA8072;
 	font-weight: 700;
+	opacity: 1;
 }

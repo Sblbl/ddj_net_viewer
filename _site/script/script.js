@@ -36,11 +36,10 @@ function bilevel_edge(data) {
 	console.log(root.leaves())
 
 	const node = svg.append('g')
-		.attr('font-family', 'sans-serif')
-		.attr('font-size', 10)
 		.selectAll('g')
 		.data(root.leaves())
 		.join('g')
+			.attr('class', 'node')
 			.attr('transform', d => `rotate(${d.x * 180 / Math.PI - 90}) translate(${d.y},0)`)
 		.append('text')
 			.attr('dy', '0.31em')
@@ -48,16 +47,20 @@ function bilevel_edge(data) {
 			.attr('text-anchor', d => d.x < Math.PI ? 'start' : 'end')
 			.attr('transform', d => d.x >= Math.PI ? 'rotate(180)' : null)
 			.text(d => d.data.id)
+			.attr('group', d => d.data.group)
+			.attr('ment_in', d => d.incoming.length)
+			.attr('ment_out', d => d.outgoing.length)
 			.each(function(d) { d.text = this })
 			.on('mouseover', overed)
 			.on('mouseout', outed)
-			.call(text => text.append('title').text(d => `${d.data.id} 
+			/*.call(text => text.append('title').text(d => `${d.data.id} 
 						${d.outgoing.length} outgoing 
 					${d.incoming.length} incoming`
-			))
+			))*/
 
 	const link = svg.append('g')
 		.attr('stroke', colornone)
+		.attr('stroke-width', colornone)
 		.attr('fill', 'none')
 		.selectAll('path')
 		.data(root.leaves().flatMap(leaf => leaf.outgoing))
@@ -68,20 +71,36 @@ function bilevel_edge(data) {
 
 	function overed(event, d) {
 		link.style('mix-blend-mode', null)
-		d3.select(this).attr('font-weight', 'bold')
-		d3.selectAll(d.incoming.map(d => d.path)).attr('stroke', colorin).raise()
-		d3.selectAll(d.incoming.map(([d]) => d.text)).attr('fill', colorin).attr('font-weight', 'bold')
-		d3.selectAll(d.outgoing.map(d => d.path)).attr('stroke', colorout).raise()
-		d3.selectAll(d.outgoing.map(([, d]) => d.text)).attr('fill', colorout).attr('font-weight', 'bold')
+
+		d3.selectAll('.node').classed('focused', true)
+		d3.select(this).classed('selected', true)
+		console.log(this)
+
+		d3.selectAll(d.incoming.map(d => d.path)).classed('focused', true).classed('colorin', true).raise()
+		d3.selectAll(d.incoming.map(([d]) => d.text)).classed('focused', true).classed('colorin', true)
+		d3.selectAll(d.outgoing.map(d => d.path)).classed('focused', true).classed('colorout', true).raise()
+		d3.selectAll(d.outgoing.map(([, d]) => d.text)).classed('focused', true).classed('colorout', true)
+
+		$('#legend').toggleClass('hidden')
+		$('#username').text(this.innerHTML)
+		$('#in_ment').text(this.getAttribute('ment_in'))
+		$('#out_ment').text(this.getAttribute('ment_out'))
 	}
 
 	function outed(event, d) {
 		link.style('mix-blend-mode', 'multiply')
-		d3.select(this).attr('font-weight', null)
-		d3.selectAll(d.incoming.map(d => d.path)).attr('stroke', null)
+
+		$('#legend').toggleClass('hidden')
+
+		d3.selectAll('.focused').classed('focused', false)
+		d3.selectAll('.selected').classed('selected', false)
+		d3.selectAll('.colorin').classed('colorin', false)
+		d3.selectAll('.colorout').classed('colorout', false)
+		
+		/*d3.selectAll(d.incoming.map(d => d.path)).attr('stroke', null)
 		d3.selectAll(d.incoming.map(([d]) => d.text)).attr('fill', null).attr('font-weight', null)
 		d3.selectAll(d.outgoing.map(d => d.path)).attr('stroke', null)
-		d3.selectAll(d.outgoing.map(([, d]) => d.text)).attr('fill', null).attr('font-weight', null)
+		d3.selectAll(d.outgoing.map(([, d]) => d.text)).attr('fill', null).attr('font-weight', null)*/
 	}
 }
 
