@@ -29,8 +29,10 @@ svg {
 
 /*VIZ*/
 .node {
-  font-size: 12pt;
+  font-size: 16pt;
   cursor: pointer; 
+  font-variant-caps: all-small-caps;
+  letter-spacing: .8pt;
 }
 
 .focused text{
