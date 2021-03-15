@@ -35,9 +35,6 @@ function bilevel_edge(data) {
 	const root = tree(bilink(d3.hierarchy(data)
 		.sort((a, b) => d3.ascending(a.height, b.height) || d3.ascending(a.data.id, b.data.id))))
 
-
-	console.log(root.leaves())
-
 	const node = svg.append('g')
 		.selectAll('g')
 		.data(root.leaves())
@@ -79,7 +76,6 @@ function bilevel_edge(data) {
 
 		d3.selectAll('.node').classed('focused', true)
 		d3.select(this).classed('selected', true)
-		console.log(this)
 
 		d3.selectAll(d.incoming.map(d => d.path)).classed('focused', true).classed('colorin', true).raise()
 		d3.selectAll(d.incoming.map(([d]) => d.text)).classed('focused', true).classed('colorin', true)

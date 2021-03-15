@@ -4,13 +4,18 @@
 	box-sizing: border-box;
 }
 
-nav {
+header {
 	padding: 12px;
 	color: #FFF;
 	background-color: #000;
 	position: fixed;
 	width: 100vw;
+	height: 48px;
 	z-index: 10000;
+}
+
+header h1 {
+	font-size: 14pt;
 }
 
 main {
@@ -22,10 +27,22 @@ svg {
 	height: 90vh;
 }
 
+svg.small_viz {
+	height: 40vh;
+}
+
 /*SECTION*/
 .section h2 {
-	top: 64px;
+	top: 48px;
 	position: sticky;
+	background-color: #FFF;
+	padding: 4px 0;
+}
+
+.texts {
+	margin: 4px 0;
+	width: 60vw;
+	max-width: 560px;
 }
 
 /*LEGENDS*/
@@ -38,6 +55,8 @@ svg {
 	background-color: #000;
 	color: #FFF;
 	display: none;
+	border-radius: 4px;
+	box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 4px 0 rgba(0, 0, 0, 0.19);
 }
 
 #group_legend h5 {
@@ -53,11 +72,14 @@ svg {
 #legend {
 	display: block;
 	position: fixed;
-	left: 0;
+	left: 12px;
 	top: 98px;
 	padding: 16px;
 	background-color: #000;
 	color: #FFF;
+	border-radius: 4px;
+	width: 162px;
+	box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 4px 0 rgba(0, 0, 0, 0.19);
 }
 
 #legend.hidden {
@@ -85,10 +107,10 @@ svg {
 /*VIZ*/
 .node {
 	font-family: Roboto Condensed;
-	font-size: 11.5pt;
+	font-size: 11pt;
 	cursor: pointer; 
 	letter-spacing: .8pt;
-	font-weight: 700;
+	font-weight: 500;
 }
 
 .focused text{
