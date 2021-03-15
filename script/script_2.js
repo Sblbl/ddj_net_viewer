@@ -3,15 +3,15 @@ const height = $('#viz_2').height()
 document.addEventListener('DOMContentLoaded', function(event) { 
 	d3.csv('CSV/mentioned.csv')
 		.then(function(data) {
-			hist(data, '#viz_2')
+			hist(data, '#viz_2', colorin)
 		})
 	d3.csv('CSV/mentioning.csv')
 		.then(function(data) {
-			hist(data, '#viz_3')
+			hist(data, '#viz_3', colorout)
 		})
 })
 
-function hist(data, id) {
+function hist(data, id, col) {
 	
 	let margin = ({top: 20, right: 20, bottom: 50, left: 40})
 
@@ -53,7 +53,7 @@ function hist(data, id) {
 			.attr('transform', function(d) { return 'translate(' + x(d.x0) + ',' + y(d.length) + ')' })
 			.attr("width", function(d) { return x(d.x1) - x(d.x0) -1 })
 			.attr('height', function(d) { return height - y(d.length) })
-			.style('fill', colorin)
+			.style('fill', col)
 
 }
 
