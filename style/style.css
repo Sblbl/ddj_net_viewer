@@ -1,7 +1,16 @@
 * {
-	font-family: Barlow;
+	font-family: Roboto;
 	margin: 0;
 	box-sizing: border-box;
+}
+
+nav {
+	padding: 12px;
+	color: #FFF;
+	background-color: #000;
+	position: fixed;
+	width: 100vw;
+	z-index: 10000;
 }
 
 main {
@@ -13,29 +22,78 @@ svg {
 	height: 90vh;
 }
 
-/*LEGEND*/
-#legend {
+/*SECTION*/
+.section h2 {
+	top: 64px;
+	position: sticky;
+}
+
+/*LEGENDS*/
+#group_legend {
 	display: block;
 	position: absolute;
+	right: 0;
+	top: 98px;
+	padding: 16px;
+	background-color: #000;
+	color: #FFF;
+	display: none;
+}
+
+#group_legend h5 {
+	font-size: 11pt
+	font-weight: 700;
+}
+
+#group_legend p {
+	font-size: 8pt
+	font-weight: 300;
+}
+
+#legend {
+	display: block;
+	position: fixed;
 	left: 0;
-	bottom: 0;
-	padding: 12px;
-	background-color: #FFFACD;
+	top: 98px;
+	padding: 16px;
+	background-color: #000;
+	color: #FFF;
 }
 
 #legend.hidden {
 	display: none;
 }
 
+.legend_info {
+	margin-bottom: 4px;
+}
+
+.legend_info:last-child {
+	margin-bottom: 4px;
+}
+
+.legend_info h5 {
+	/*text-decoration: underline;*/
+	font-size: 11pt;
+	font-weight: 700; 
+}
+
+.legend_info p {
+	font-size: 10pt;
+}
+
 /*VIZ*/
 .node {
-  font-size: 10.5pt;
-  cursor: pointer; 
-  letter-spacing: .8pt;
+	font-family: Roboto Condensed;
+	font-size: 11.5pt;
+	cursor: pointer; 
+	letter-spacing: .8pt;
+	font-weight: 700;
 }
 
 .focused text{
 	opacity: .5;
+	font-weight: 300;
 }
 
 .focused .selected {
@@ -48,7 +106,7 @@ path.colorin {
 	opacity: 1;
 }
 text.colorin {
-	fill: #4169E1;
+	/*fill: #4169E1;*/
 	font-weight: 700;
 	opacity: 1;
 }
@@ -58,7 +116,58 @@ path.colorout {
 	opacity: 1;
 }
 text.colorout {
-	fill: #FA8072;
+	/*fill: #FA8072;*/
 	font-weight: 700;
 	opacity: 1;
+}
+/*["#8dd3c7","#ffffb3","#bebada","#fb8072","#80b1d3","#fdb462","#b3de69","#fccde5","#d9d9d9","#bc80bd","#ccebc5","#ffed6f"]*/
+/*["#4e79a7","#f28e2c","#e15759","#76b7b2","#59a14f","#edc949","#af7aa1","#ff9da7","#9c755f","#bab0ab"]*/
+.g_0 {
+	fill: #4e79a7;
+	color: #4e79a7;
+}
+
+.g_1 {
+	fill: #f28e2c;
+	color: #f28e2c;
+}
+
+.g_2 {
+	fill: #e15759;
+	color: #e15759;
+}
+
+.g_3 {
+	fill: #76b7b2;
+	color: #76b7b2;
+}
+
+.g_4 {
+	fill: #59a14f;
+	color: #59a14f;
+}
+
+.g_5 {
+	fill: #edc949;
+	color: #edc949;
+}
+
+.g_6 {
+	fill: #af7aa1;
+	color: #af7aa1;
+}
+
+.g_7 {
+	fill: #ff9da7;
+	color: #ff9da7;
+}
+
+.g_8 {
+	fill: #9c755f;
+	color: #9c755f;
+}
+
+.g_9 {
+	fill: #bab0ab;
+	color: #bab0ab;
 }

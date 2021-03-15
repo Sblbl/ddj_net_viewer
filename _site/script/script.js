@@ -1,4 +1,4 @@
-const svg = d3.select('#viz')
+const svg = d3.select('#viz_1')
 const colorin = '#00f',
 		colorout = '#f00',
 		colornone = '#ccc',
@@ -14,7 +14,10 @@ const tree = d3.cluster()
 	.size([2 * Math.PI, radius - 100])
 
 document.addEventListener('DOMContentLoaded', function(event) { 
-	svg.attr("viewBox", [-width / 2, -width / 2, width, width])
+	for (let i = 0; i < 10; i++) {
+		$('#group_legend').append(`<p class=g_${i}>${i}</p>`)
+	}
+	svg.attr('viewBox', [-width/2 - 80, -width/2 - 120, width + 80, width + 240])
 	plot('JSON/net.json') 
 })
 
@@ -39,7 +42,9 @@ function bilevel_edge(data) {
 		.selectAll('g')
 		.data(root.leaves())
 		.join('g')
-			.attr('class', 'node')
+			.attr('class', d => {
+				return 'node g_' + d.data.group
+			})
 			.attr('transform', d => `rotate(${d.x * 180 / Math.PI - 90}) translate(${d.y},0)`)
 		.append('text')
 			.attr('dy', '0.31em')
@@ -81,8 +86,11 @@ function bilevel_edge(data) {
 		d3.selectAll(d.outgoing.map(d => d.path)).classed('focused', true).classed('colorout', true).raise()
 		d3.selectAll(d.outgoing.map(([, d]) => d.text)).classed('focused', true).classed('colorout', true)
 
+		let c = this.getAttribute('group')
 		$('#legend').toggleClass('hidden')
 		$('#username').text(this.innerHTML)
+		$('#cluster_info').attr('class', 'legend_info g_' + c)
+		$('#cluster').text(this.getAttribute('group'))
 		$('#in_ment').text(this.getAttribute('ment_in'))
 		$('#out_ment').text(this.getAttribute('ment_out'))
 	}
@@ -96,11 +104,6 @@ function bilevel_edge(data) {
 		d3.selectAll('.selected').classed('selected', false)
 		d3.selectAll('.colorin').classed('colorin', false)
 		d3.selectAll('.colorout').classed('colorout', false)
-		
-		/*d3.selectAll(d.incoming.map(d => d.path)).attr('stroke', null)
-		d3.selectAll(d.incoming.map(([d]) => d.text)).attr('fill', null).attr('font-weight', null)
-		d3.selectAll(d.outgoing.map(d => d.path)).attr('stroke', null)
-		d3.selectAll(d.outgoing.map(([, d]) => d.text)).attr('fill', null).attr('font-weight', null)*/
 	}
 }
 

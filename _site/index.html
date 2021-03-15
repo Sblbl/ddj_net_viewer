@@ -8,33 +8,61 @@
 	<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
 	
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/6.5.0/d3.min.js" integrity="sha512-0XfwGD1nxplHpehcSVI7lY+m/5L37PNHDt+DOc7aLFckwPXjnjeA1oeNbru7YeI4VLs9i+ADnnHEhP69C9CqTA==" crossorigin="anonymous"></script>
-	<!-- <script src="https://unpkg.com/d3-hierarchy@2.0.0-rc.3/dist/d3-hierarchy.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-array/1.2.2/d3-array.min.js" integrity="sha512-a/E42YlriWlH6BqS4HXIXSx/tNTdC9NAKnGayXm0yac310St9QXhgtMQTPd9Ve48M3GEc234+qxZY3W/8v6cOw==" crossorigin="anonymous"></script> -->
-	<link href='https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap' rel='stylesheet'>
-	<link href='https://fonts.googleapis.com/icon?family=Material+Icons'
-      rel='stylesheet'><link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Your awesome title" /></head>
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&display=swap" rel="stylesheet"><link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Your awesome title" /></head>
 <body><!-- <header class="site-header">
 	<div class="wrapper">
 		<h1>Dj network viewer</h1>
 	</div>
 </header>
- --><main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        <h1>DDJ Bubbles in 2020</h1>
-<svg id="viz"></svg>
-<div id="legend" class="hidden">
-	<h5>User</h5>
-	<p id="username"></p>
-	<h5 style="color: #4169E1;">Mentioned:</h5>
-	<p id="in_ment" style="color: #4169E1;"></p>
-	<h5 style="color: #FA8072;">Mentioning:</h5>
-	<p id="out_ment" style="color: #FA8072;"></p>
+ --><nav><h1>Data Journalism networks on Twitter (2020)</h1></nav>
+		<main class="page-content" aria-label="Content">
+			<div class="wrapper">
+				<div class="section">
+	<h2>Communities: a general view</h2>
+	<svg id="viz_1"></svg>
+	<div id="group_legend" class="hidden">
+		<h5>Clusters</h5>
+	</div>
+	<div id="legend" class="hidden">
+		<div class="legend_info">
+			<h5>User</h5>
+			<p id="username"></p>
+		</div>
+		<div class="group_info" id="cluster_info">
+			<h5>Cluster</h5>
+			<p id="cluster"></p>
+		</div>
+		<div class="legend_info">
+			<h5 style="color: #4169E1;">Mentioned:</h5>
+			<p id="in_ment" style="color: #4169E1;"></p>
+		</div>
+		<div class="legend_info">
+			<h5 style="color: #FA8072;">Mentioning:</h5>
+			<p id="out_ment" style="color: #FA8072;"></p>
+		</div>
+	</div>
+</div>
+<div class="section">
+	<h2>Roles and actors in the network</h2>
+	<div class="text_section">
+		<p>
+			There are two principal kinds of users: the spreaders and the authors.
+		</p>
+		<p>
+			The first are those who tend to retweet others' work. The latters, instead, mainly publish original contents.
+		</p>
+	</div>
+	<svg id="viz_2"></svg>
 </div>
 
 
-      </div>
-    </main>
-    <script type='text/javascript'src='script/script.js'></script><footer class="site-footer h-card">
+			</div>
+		</main>
+		<script type='text/javascript'src='script/script.js'></script>
+		<script type='text/javascript'src='script/script_2.js'></script><footer class="site-footer h-card">
   <data class="u-url" href="/"></data>
 
   <div class="wrapper">
