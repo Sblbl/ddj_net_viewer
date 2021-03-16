@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function(event) {
 		{name : 'AJLabs', ments: 281, cluster: 2},
 		{name : 'gijn', ments: 312, cluster: 0},
 		{name : 'datajournalism', ments: 361, cluster: 3},
-		{name : 'EscolaDeDados', ments: 55, cluster: 0}
+		{name : 'EscolaDeDados', ments: 552, cluster: 0}
 	]
 	
 	bar(spreaders, '#viz_4')
