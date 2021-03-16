@@ -18,11 +18,11 @@ function hist(data, id, col) {
 	// X axis: scale and draw:
 	var x = d3.scaleLinear()
 		.domain([0, d3.max(data, function(d) { return +d.ments })])     // can use this instead of 1000 to have the max of data: d3.max(data, function(d) { return +d.price })
-		.range([0, width])
+		.range([0, (width-margin)])
 
 	let svg_2 = d3.select(id)
 	//svg_2.attr('viewBox', [20, -margin.top, width + margin.right, height + margin.bottom])
-	svg_2.attr('viewBox', [-margin, -margin, width+margin, height+(margin/2)])
+	svg_2.attr('viewBox', [-margin, -margin, width+(margin*2), height+(margin/2)])
 
 	svg_2.append('g')
 		.attr('transform', 'translate(0,' + height + ')')

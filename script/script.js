@@ -1,6 +1,6 @@
 const svg = d3.select('#viz_1')
-const colorin = '#00f',
-		colorout = '#f00',
+const colorin = '#4169E1',
+		colorout = '#FA8072',
 		colornone = '#ccc',
 		width = $(document).width(),
 		radius = width / 2
@@ -15,9 +15,12 @@ const tree = d3.cluster()
 
 document.addEventListener('DOMContentLoaded', function(event) { 
 	for (let i = 0; i < 10; i++) {
-		$('#group_legend').append(`<p class=g_${i}>${i}</p>`)
+		$('#group_legend').append(`<p><span class="material-icons g_${i}">fiber_manual_record</span> cluster ${i}</p>`)
 	}
-	svg.attr('viewBox', [-width/2 - 80, -width/2 - 120, width + 80, width + 240])
+	$('#group_legend').append(`<h5>Mentions</h5>`)
+	$('#group_legend').append(`<p><span class="material-icons" style='color:${colorout}'>fiber_manual_record</span> outc. mentions</p>`)
+	$('#group_legend').append(`<p><span class="material-icons" style='color:${colorin}'>fiber_manual_record</span> inc. mentions</p>`)
+	svg.attr('viewBox', [-width/2 -40, -width/2 - 120, width + 80, width + 240])
 	plot('JSON/net.json') 
 })
 
@@ -86,7 +89,7 @@ function bilevel_edge(data) {
 		$('#legend').toggleClass('hidden')
 		$('#username').text(this.innerHTML)
 		$('#cluster_info').attr('class', 'legend_info g_' + c)
-		$('#cluster').text(this.getAttribute('group'))
+		$('#cluster').text('cluster ' + this.getAttribute('group'))
 		$('#in_ment').text(this.getAttribute('ment_in'))
 		$('#out_ment').text(this.getAttribute('ment_out'))
 	}

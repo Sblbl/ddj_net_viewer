@@ -4,6 +4,10 @@
 	box-sizing: border-box;
 }
 
+.TODO {
+	color: red;
+}
+
 body {
 	background-color: #F0FFF0;
 }
@@ -33,10 +37,11 @@ main {
 	width: 70vw;
 	background-color: #FFF;
 	margin-left: 15vw;
+	box-shadow: 0 -16px 16px 0 rgba(0, 0, 0, 0.03), 0 -16px 16px 0 rgba(0, 0, 0, 0.03);
 }
 
 svg {
-	width: 90%;
+	width: 100%;
 	height: 90vh;
 }
 
@@ -78,24 +83,26 @@ svg.small_viz {
 /*LEGENDS*/
 #group_legend {
 	display: block;
-	position: absolute;
-	right: 0;
-	top: 98px;
+	position: fixed;
+	right: 12px;
+	bottom: 12px;
 	padding: 16px;
 	background-color: #000;
 	color: #FFF;
-	display: none;
 	border-radius: 4px;
 	box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 4px 0 rgba(0, 0, 0, 0.19);
+	text-align: left;
 }
 
 #group_legend h5 {
 	font-size: 11pt
 	font-weight: 700;
+	margin-top: 0;
+	font-family: 'Roboto';
 }
 
 #group_legend p {
-	font-size: 8pt
+	font-size: 10pt;
 	font-weight: 300;
 }
 
@@ -112,33 +119,38 @@ svg.small_viz {
 	box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 4px 0 rgba(0, 0, 0, 0.19);
 }
 
+#legend h5 {
+	margin: 0;
+	font-family: 'Roboto';
+}
+
 #legend.hidden {
 	display: none;
 }
 
 .legend_info {
-	margin-bottom: 4px;
+	margin-top: 4pt;
 	text-align: left;
-}
-
-.legend_info:last-child {
-	margin-bottom: 4px;
 }
 
 .legend_info h5 {
 	/*text-decoration: underline;*/
-	font-size: 11pt;
 	font-weight: 700; 
+	margin: 0;
 }
 
 .legend_info p {
 	font-size: 10pt;
 }
 
+span.material-icons {
+	font-size: 10pt;
+}
+
 /*VIZ*/
 .node {
 	font-family: Roboto Condensed;
-	font-size: 11pt;
+	font-size: 10pt;
 	cursor: pointer; 
 	letter-spacing: .8pt;
 	font-weight: 500;
@@ -176,8 +188,8 @@ text.colorout {
 /*["#8dd3c7","#ffffb3","#bebada","#fb8072","#80b1d3","#fdb462","#b3de69","#fccde5","#d9d9d9","#bc80bd","#ccebc5","#ffed6f"]*/
 /*["#4e79a7","#f28e2c","#e15759","#76b7b2","#59a14f","#edc949","#af7aa1","#ff9da7","#9c755f","#bab0ab"]*/
 .g_0 {
-	fill: #4e79a7;
-	color: #4e79a7;
+	fill: #6e6dbb;
+	color: #6e6dbb;
 }
 
 .g_1 {
@@ -186,8 +198,8 @@ text.colorout {
 }
 
 .g_2 {
-	fill: #e15759;
-	color: #e15759;
+	fill: #e467a7;
+	color: #e467a7;
 }
 
 .g_3 {
@@ -211,8 +223,8 @@ text.colorout {
 }
 
 .g_7 {
-	fill: #ff9da7;
-	color: #ff9da7;
+	fill: #ffb7be;
+	color: #ffb7be;
 }
 
 .g_8 {
@@ -221,6 +233,11 @@ text.colorout {
 }
 
 .g_9 {
-	fill: #bab0ab;
-	color: #bab0ab;
+	fill: #9fd415;
+	color: #9fd415;
+}
+
+.no_g {
+	fill: #ccc;
+	color: #ccc;
 }
