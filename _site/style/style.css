@@ -4,46 +4,76 @@
 	box-sizing: border-box;
 }
 
+body {
+	background-color: #F0FFF0;
+}
+
 header {
-	padding: 12px;
+	padding: 12px 24px;
 	color: #FFF;
 	background-color: #000;
 	position: fixed;
 	width: 100vw;
 	height: 48px;
 	z-index: 10000;
+	text-align: center;
 }
 
 header h1 {
 	font-size: 14pt;
+	margin-left: 15vw;
+}
+
+h1, h2, h3, h4, h5 {
+	text-align: left;
 }
 
 main {
-	padding: 6px 12px 12px;
+	padding: 24px;
+	width: 70vw;
+	background-color: #FFF;
+	margin-left: 15vw;
 }
 
 svg {
-	width: 100vw;
+	width: 90%;
 	height: 90vh;
 }
 
 svg.small_viz {
-	height: 40vh;
+	height: 220px;
 }
 
 /*SECTION*/
+.section {
+	text-align: center;
+}
+
 .section h2 {
 	top: 48px;
 	position: sticky;
 	background-color: #FFF;
 	padding: 4px 0;
+	text-align: left;
+	font-family: 'IBM Plex Serif';
+}
+
+.section h5 {
+	font-family: 'IBM Plex Serif';
+	margin-top: 12pt;
 }
 
 .texts {
 	margin: 4px 0;
-	width: 60vw;
-	max-width: 560px;
+	width: 100%;
+	max-width: 600px;
+	text-align: left;
 }
+
+.texts p {
+	font-family: 'IBM Plex Serif';
+}
+
 
 /*LEGENDS*/
 #group_legend {
@@ -88,6 +118,7 @@ svg.small_viz {
 
 .legend_info {
 	margin-bottom: 4px;
+	text-align: left;
 }
 
 .legend_info:last-child {

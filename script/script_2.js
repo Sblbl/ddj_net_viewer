@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function(event) {
 
 function hist(data, id, col) {
 	
-	let margin = ({top: 20, right: 20, bottom: 50, left: 40})
+	let margin = 35
 
 	// X axis: scale and draw:
 	var x = d3.scaleLinear()
@@ -21,7 +21,8 @@ function hist(data, id, col) {
 		.range([0, width])
 
 	let svg_2 = d3.select(id)
-	svg_2.attr('viewBox', [20, -margin.top, width + margin.right, height + margin.bottom])
+	//svg_2.attr('viewBox', [20, -margin.top, width + margin.right, height + margin.bottom])
+	svg_2.attr('viewBox', [-margin, -margin, width+margin, height+(margin/2)])
 
 	svg_2.append('g')
 		.attr('transform', 'translate(0,' + height + ')')
