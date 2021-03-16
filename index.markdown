@@ -31,32 +31,30 @@ layout: default
 	<h2>Roles and actors in the network</h2>
 	<div class='texts'>
 		<p>
-			There are two principal kinds of users: the spreaders and the authors.
+			There are three classes of users: the mostly inactive, the spreaders (those who mention other users), and the ones that are mostly mentinoed: the stars.
 		</p>
 		<p>
-			The first are those who tend to retweet others' work. The latters, instead, mainly publish original contents.
-		</p>
-		<p>
-			As we can expect, in both cases we can observe a great amount of users with a low in and out activity and a restricted minority that collects the majority of mentions. <span class='TODO'>[say sth about the difference between the 2 distrs]</span>
+			As we can expect, the majority of users fall in the first category. For what concerns the other two classes …<span class='TODO'>[say sth about the difference between the 2 distrs]</span>
 		</p>
 	</div>
 	<h5>Distribution of incoming mentions</h5>
 	<svg id='viz_2' class='small_viz'></svg>
 	<h5>Distribution of outcoming mentions</h5>
 	<svg id='viz_3' class='small_viz'></svg>
+	<h2>A deeper glance at the most important users</h2>
 	<div class='texts'>
 		<p>
-			The spreaders are <span class='TODO'>[continue]</span>
+			The mentioners are …<span class='TODO'>[continue]</span>. 
 		</p>
 	</div>
-	<h5>The main spreaders</h5>
+	<h5>The mentioners</h5>
 	<svg id='viz_4' class='small_viz'></svg>
 	<div class='texts'>
 		<p>
-			The publishers are <span class='TODO'>[continue]</span>
+			The most mentioned are … <span class='TODO'>[continue]</span>. In this case, we observe that all the super-stars of data journalism belong to one of the extracted communities, mainly from <span class='g_0'>cluster 0</span> and <span class='g_2'>cluster 2</span>
 		</p>
 	</div>
-	<h5>The main publishers</h5>
+	<h5>The most mentioned</h5>
 	<svg id='viz_5' class='small_viz'></svg>
 </div>
 
