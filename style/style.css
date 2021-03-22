@@ -77,6 +77,7 @@ svg.small_viz {
 
 .texts p {
 	font-family: 'IBM Plex Serif';
+	margin-top: 8pt;
 }
 
 
@@ -185,6 +186,11 @@ text.colorout {
 	font-weight: 700;
 	opacity: 1;
 }
+
+.tick text {
+	font-size: 10pt;
+}
+
 /*["#8dd3c7","#ffffb3","#bebada","#fb8072","#80b1d3","#fdb462","#b3de69","#fccde5","#d9d9d9","#bc80bd","#ccebc5","#ffed6f"]*/
 /*["#4e79a7","#f28e2c","#e15759","#76b7b2","#59a14f","#edc949","#af7aa1","#ff9da7","#9c755f","#bab0ab"]*/
 .g_0 {

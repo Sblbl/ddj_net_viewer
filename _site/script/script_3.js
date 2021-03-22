@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function(event) {
 		{name : 'AJLabs', ments: 281, cluster: 2},
 		{name : 'gijn', ments: 312, cluster: 0},
 		{name : 'datajournalism', ments: 361, cluster: 3},
-		{name : 'EscolaDeDados', ments: 55, cluster: 0}
+		{name : 'EscolaDeDados', ments: 552, cluster: 0}
 	]
 	
 	bar(spreaders, '#viz_4')
@@ -29,7 +29,7 @@ function bar(data, id) {
 	let margin = 45
 	let svg_3 = d3.select(id)
 
-	svg_3.attr('viewBox', [-margin, 0, width+margin, $(`${id}`).height()+(margin/2)])	
+	svg_3.attr('viewBox', [-margin*1.5, 0, width+margin, $(`${id}`).height()+(margin/2)])	
 	
 	let barHeight = 25
 	let height = Math.ceil((data.length + 0.1) * barHeight) + (margin*2)
@@ -50,7 +50,7 @@ function bar(data, id) {
 		.call(d3.axisLeft(y).tickFormat(i => data[i].name).tickSizeOuter(0))
 	xAxis = g => g
 		.attr('transform', `translate(0, 0)`)
-		.call(d3.axisTop(x).ticks(width / 80, data.format))
+		.call(d3.axisTop(x).ticks(width / 40, data.format))
 		.call(g => g.select('.domain').remove())
 
 	svg_3.append('g')
@@ -84,9 +84,10 @@ function bar(data, id) {
 		.attr('dx', -4)
 		.text(d => format(d.ments))
 		.call(text => text.filter(d => x(d.ments) - x(0) < 20) // short bars
-		.attr('dx', +4)
-		.attr('fill', 'black')
-		.attr('text-anchor', 'start'))
+			.attr('dx', +4)
+			.attr('fill', 'black')
+			.attr('text-anchor', 'start')
+		)
 
 	svg_3.append('g')
 		.call(xAxis)

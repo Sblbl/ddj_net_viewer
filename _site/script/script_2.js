@@ -22,7 +22,7 @@ function hist(data, id, col) {
 
 	let svg_2 = d3.select(id)
 	//svg_2.attr('viewBox', [20, -margin.top, width + margin.right, height + margin.bottom])
-	svg_2.attr('viewBox', [-margin, -margin, width+(margin*2), height+(margin/2)])
+	svg_2.attr('viewBox', [-margin*1.5, -margin, width+(margin*2), height+(margin/2)])
 
 	svg_2.append('g')
 		.attr('transform', 'translate(0,' + height + ')')
@@ -39,7 +39,7 @@ function hist(data, id, col) {
 
 	// Y axis: scale and draw:
 	var y = d3.scaleSqrt()
-		.range([height, 0])
+		.range([height, -margin/1.4])
 		.domain([0, d3.max(bins, function(d) { return d.length })])   // d3.hist has to be called before the Y axis obviously
 
 	svg_2.append('g')
