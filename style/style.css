@@ -68,6 +68,12 @@ svg.small_viz {
 	margin-top: 12pt;
 }
 
+.section p {
+	text-align: left;
+	font-family: 'IBM Plex Serif';
+	margin-top: 8pt;
+}
+
 .texts {
 	margin: 4px 0;
 	width: 100%;
@@ -76,6 +82,13 @@ svg.small_viz {
 }
 
 .texts p {
+	font-family: 'IBM Plex Serif';
+	margin-top: 8pt;
+}
+
+.subsection {
+	padding: 4px;
+	text-align: left;
 	font-family: 'IBM Plex Serif';
 	margin-top: 8pt;
 }
@@ -125,6 +138,10 @@ svg.small_viz {
 	font-family: 'Roboto';
 }
 
+#legend p {
+	margin-top: 0;
+}
+
 #legend.hidden {
 	display: none;
 }
@@ -142,6 +159,7 @@ svg.small_viz {
 
 .legend_info p {
 	font-size: 10pt;
+	margin-top: 0;
 }
 
 span.material-icons {
