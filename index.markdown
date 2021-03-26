@@ -67,25 +67,19 @@ layout: default
 	<svg id='viz_5' class='small_viz'></svg>
 	<div class='texts'>
 		<p>
-			The most mentioned users and the ones who most mention were extracted from the whole mention graph to understand if there were any lonley wolf that was not captured from the algorithm. 
+			The most mentioned users and the ones who most mention were extracted from the raw graph to understand if there were any lonley wolf that was not captured from the algorithm. 
 		</p>
 		<p>A big anomaly was suddenly found: the two users at the top
-			of the ranks, EscolaDeDados and journalismoDados are in reality part of the same group and they always mention each other. The second profile is now inexisting but it is likely that they were managed by the same person or group. 
-		</p>
-		<p>Since journalismoDados is not part of any community,
-			probably it was deleted before 2020 in favor of EscolaDeDados, that is part of <span class='g_0'>cluster 0</span>.
+			of the ranks, <a href='https://twitter.com/EscolaDeDados' target='blank'>@EscolaDeDados</a> and @journalismoDados are in reality part of the same group and they always mention each other. The latter is now inexisting but it is likely it was managed by the same person of the former, and that  it was deleted before 2020 in favor of <a href='https://twitter.com/EscolaDeDados' target='blank'>@EscolaDeDados</a>, which is part of <a href='#cluster_0' class='g_0'>cluster 0</a>.
 		</p>
 		<p>
-			And it is exaclty from <span class='g_0'>cluster 0</span> that most of the most mentioned users come, toghether with <span class='g_2'>cluster 2</span>. 
+			And it is exaclty from <a href='#cluster_0' class='g_0'>cluster 0</a> that most of the most mentioned users come, toghether with <a href='#cluster_2' class='g_2'>cluster 2</a>. 
 		</p>
 		<p>
-			Since the distribution of the most mentioned users is more likely, it can be trusted that EscolaDeDados is the true top star. 
+			Since the distribution of the most mentioned users is more likely, it can be trusted that <a href='https://twitter.com/EscolaDeDados' target='blank'>@EscolaDeDados</a> (at the first place)is the true top star. 
 		</p>
-		<p>An exception of what has been said before is that gjin is
+		<p>An exception of what has been said before is that <a href='https://twitter.com/gijn' target='blank'>@gijn</a> is
 			on the top of both ranks, suggesting its role of importance in the Data Journalism Twitter environment. 
-		</p>
-		<p>
-			Another aspect to notice is that AJEnglish, the english version of Al Jazeera, in <span class='g_1'>cluster 1</span>,  is related to AJLabs in <span class='g_2'>cluster 2</span> and this 
 		</p>
 	</div>
 </div>
@@ -94,37 +88,37 @@ layout: default
 	<p>
 		How does each community contribute and act in the Data Journalism field? In this section, each cluster is analysed to reveal its nature.
 	</p>
-	<div class='subsection'>
+	<div id='cluster_0' class='subsection'>
 		<h5 class='g_0'>Cluster 0: the big soup</h5>
 		<p>
 			Cluster 0 witnesses a higher level of diversity with respect of account owners' nationality, active region and identity. It involves users from Europe (about 63% Germany), North America (90% US), Central and South America (nearly 92% Brazil), along with some accounts from Asia and Africa.
 		</p>
 		<p>
-			Quite all the accounts are mentioned by @gjin (Global Investigative Journalism Network) but this is not a discriminator from other communities, since many users from <span class='g_1'>cluster 1</span>, <span class='g_2'>cluster 2</span>, <span class='g_3'>cluster 3</span>, and <span class='g_4'>cluster 4</span> are mentioned by this organisation. 
+			Quite all the accounts are mentioned by <a href='https://twitter.com/gijn' target='blank'>@gijn</a> (Global Investigative Journalism Network) but this is not a discriminator from other communities, since many users from <a href='#cluster_1' class='g_1'>cluster 1</a>, <a href='#cluster_2' class='g_2'>cluster 2</a>, <a href='#cluster_3' class='g_3'>cluster 3</a>, and <a href='#cluster_4' class='g_4'>cluster 4</a> are mentioned by this organisation. 
 		</p>
 	</div>
-	<div class='subsection'>
+	<div id='cluster_1' class='subsection'>
 		<h5 class='g_1'>Cluster 1: news organizations and data teams</h5>
 		<p>
 			This community mainly contains accounts of big news organizations and their data teams, data visualization tools, and non-profit organizations. These accounts seldom mention others within or outside their cluster. 
 		</p>
 		<p>
-			The reason why they are grouped together is probably they are either mentioned by @gijnafrica or @WarningGraphicC, with the former dedicating in sharing investigative journalism and the latter providing daily links on data journalism and visualization. 
+			The reason why they are grouped together is probably they are either mentioned by <a href='https://twitter.com/gijnafrica' target='blank'>@gijnafrica</a> or <a href='https://twitter.com/WarningGraphicC' target='blank'>@WarningGraphicC</a>, with the former dedicating in sharing investigative journalism and the latter providing daily links on data journalism and visualization. 
 		</p>
 	</div>
-	<div class='subsection'>
+	<div id='cluster_2' class='subsection'>
 		<h5 class='g_2'>Cluster 2: non-profit journalist network organizations and Sigma Awards</h5>
 		<p>
-			Cluster two is composed of non-profit journalist network organizations and accounts around sigma awards. Most of these journalist network organizations are interrelated and have a partnership with each other. Besides, there are accounts of sigma awards and its founders and managers. In the meanwhile, the journalist network organizations such as @IJNet and @IRE are sigma awards’ media partners, which indicates that sigma awards has a close connection with those international and regional journalist centers. 
+			Cluster two is composed of non-profit journalist network organizations and accounts around sigma awards. Most of these journalist network organizations are interrelated and have a partnership with each other. Besides, there are accounts of sigma awards and its founders and managers. In the meanwhile, the journalist network organizations such as <a href='https://twitter.com/IJNet' target='blank'>@IJNet</a> and <a href='https://twitter.com/IRE' target='blank'>@IRE</a> are sigma awards’ media partners, which indicates that sigma awards has a close connection with those international and regional journalist centers. 
 		</p>
 	</div>
-	<div class='subsection'>
+	<div id='cluster_3' class='subsection'>
 		<h5 class='g_3'>Cluster 3: around datajournalism.com</h5>
 		<p>
-			This community revolves around @datajournalism, which mentions almost every account in this cluster. The accounts are mainly regional media organizations and data journalists around the world. Six of them are also contributors of datajournalism.com.
+			This community revolves around <a href='https://twitter.com/datajournalism' target='blank'>@datajournalism</a>, which mentions almost every account in this cluster. The accounts are mainly regional media organizations and data journalists around the world. Six of them are also contributors of datajournalism.com.
 		</p>
 	</div>
-	<div class='subsection'>
+	<div id='cluster_4' class='subsection'>
 		<h5 class='g_4'>Cluster 4: BBC and BCU</h5>
 		<p>
 			In this cluster we can mainly find British data journalists' personal accounts, which can be divided into BBC-related accounts and BCU-related accounts.
@@ -133,40 +127,40 @@ layout: default
 			The former are those who used to work or currently work for BBC, while the latter either teach or receive the data journalism-related degree in Birmingham City University. 
 		</p>
 		<p>
-			The reason why these two groups of accounts are merged into one cluster is that @paulbradshaw has interaction with both BBC-related accounts and BCU-related accounts. He has worked with the BBC England data unit since 2015, and leads the MA in Data, Multiplatform and Mobile Journalism at Birmingham City University.
+			The reason why these two groups of accounts are merged into one cluster is that <a href='https://twitter.com/paulbradshaw' target='blank'>@paulbradshaw</a> has interaction with both BBC-related accounts and BCU-related accounts. He has worked with the BBC England data unit since 2015, and leads the MA in Data, Multiplatform and Mobile Journalism at Birmingham City University.
 		</p>
 	</div>
-	<div class='subsection'>
+	<div id='cluster_5' class='subsection'>
 		<h5 class='g_5'>Cluster 5: Nigeria</h5>
 		<p>
 			The 80% of this cluster’s accounts is originary from Nigeria. Although they are not dominant in numbers, these accounts have showed variety in respect of category. Among them there are civic organisation, international development, non-governmental organisations, research organisation, news agency.
 		</p>
 		<p> 
-			It emerges @Dataphyte, a journalist and entrepreneur who has started online study website of data methods.
+			It emerges <a href='https://twitter.com/Dataphyte' target='blank'>@Dataphyte</a>, a journalist and entrepreneur who has started online study website of data methods.
 		</p>
 	</div>
-	<div class='subsection'>
+	<div id='cluster_6' class='subsection'>
 		<h5 class='g_6'>Cluster 6: Northern Europe</h5>
 		<p>
 			All of this cluster’s accounts originate in Western and Northern European countries like Netherlands, France and Denmark, or locate in the capital of European Union, Brussels. 
 		</p>
 		<p> 
-			The most active accounts of this cluster are EU @EU_opendata, an event to be held in 23-25th November 2021, and a student assistant editor @MarieSchoenning of UvA Amsterdam, an intellectual hub of the Netherlands.
+			The most active accounts of this cluster are EU <a href='https://twitter.com/EU_opendata' target='blank'>@EU_opendata</a>, an event to be held in 23-25th November 2021, and a student assistant editor <a href='https://twitter.com/MarieSchoenning' target='blank'>@MarieSchoenning</a> of UvA Amsterdam, an intellectual hub of the Netherlands.
 		</p>
 	</div>
-	<div class='subsection'>
+	<div id='cluster_78' class='subsection'>
 		<h5 class='no_g'><span class='g_7'>Cluster 7</span> and <span class='g_8'>Cluster 8</span>: Brazil</h5>
 		<p>
 			The accounts within these two clusters are in Brazil, addressing politics, education, health, security issues in Brazil and sometimes Latin America. Another thing they have in common is that they are all professionals in journalism. 
 		</p>
 	</div>
-	<div class='subsection'>
+	<div id='cluster_9' class='subsection'>
 		<h5 class='g_9'>Cluster 9: global</h5>
 		<p>
-			Three organisation accounts led by western countries, radiating the whole world. It includes UN World Data Forum (UNDataForum), which is an annual event funded by The United Nations. 
+			Three organisation accounts led by western countries, radiating the whole world. It includes UN World Data Forum (<a href='https://twitter.com/UNDataForum' target='blank'>@UNDataForum</a>), which is an annual event funded by The United Nations. 
 		</p>
 		<p> 
-			The other two accounts, Earth Journalism Network (@earthjournalism) and Resources Watch (@resource_watch) are both initiated in US, addressing environmental topics.
+			The other two accounts, Earth Journalism Network (<a href='https://twitter.com/earthjournalism' target='blank'>@earthjournalism</a>) and Resources Watch (<a href='https://twitter.com/resource_watch' target='blank'>@resource_watch</a>) are both initiated in US, addressing environmental topics.
 		</p>
 	</div>
 </div>
