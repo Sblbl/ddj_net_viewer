@@ -28,6 +28,13 @@ document.addEventListener('DOMContentLoaded', function(event) {
 	
 	bar_active(with_rt, '#viz_6')
 	bar_active(no_rt, '#viz_7')
+
+	$(window).resize( function(){
+		$('#viz_6').empty()
+		$('#viz_7').empty()
+		bar_active(with_rt, '#viz_6')
+		bar_active(no_rt, '#viz_7')
+	})
 })
 
 function bar_active(data, id) {

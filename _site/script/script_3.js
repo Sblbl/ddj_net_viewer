@@ -28,7 +28,16 @@ document.addEventListener('DOMContentLoaded', function(event) {
 	
 	bar(spreaders, '#viz_4')
 	bar(publishers, '#viz_5')
+
+	$(window).resize( function(){
+		$('#viz_4').empty()
+		$('#viz_5').empty()
+	    bar(spreaders, '#viz_4')
+		bar(publishers, '#viz_5')
+	})
+
 })
+
 
 function bar(data, id) {
 	let margin = 45

@@ -1,5 +1,3 @@
-const height = $('#viz_2').height()
-
 document.addEventListener('DOMContentLoaded', function(event) { 
 	d3.csv('CSV/mentioned.csv')
 		.then(function(data) {
@@ -9,9 +7,23 @@ document.addEventListener('DOMContentLoaded', function(event) {
 		.then(function(data) {
 			hist(data, '#viz_3', colorout)
 		})
+
+	$(window).resize( function(){
+		$('#viz_2').empty()
+		$('#viz_3').empty()
+	    d3.csv('CSV/mentioned.csv')
+    		.then(function(data) {
+    			hist(data, '#viz_2', colorin)
+	    })
+    	d3.csv('CSV/mentioning.csv')
+    		.then(function(data) {
+    			hist(data, '#viz_3', colorout)
+    	})
+	})
 })
 
 function hist(data, id, col) {
+	let height = $(id).height()
 	
 	let margin = 35
 

@@ -22,6 +22,11 @@ document.addEventListener('DOMContentLoaded', function(event) {
 	$('#group_legend').append(`<p><span class="material-icons" style='color:${colorin}'>fiber_manual_record</span> inc. mentions</p>`)
 	svg.attr('viewBox', [-width/2 -40, -width/2 - 120, width + 80, width + 240])
 	plot('JSON/net.json') 
+
+	$(window).resize( function(){
+		$('#viz_1').empty()
+		plot('JSON/net.json') 
+	})
 })
 
 function plot(file) {
