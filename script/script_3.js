@@ -33,10 +33,11 @@ document.addEventListener('DOMContentLoaded', function(event) {
 function bar(data, id) {
 	let margin = 45
 	let svg_3 = d3.select(id)
+	let h = $(`${id}`).height()
 
-	svg_3.attr('viewBox', [-margin*1.5, 0, width+margin, $(`${id}`).height()+(margin/2)])	
+	svg_3.attr('viewBox', [-margin*1.5, -margin, width+margin, $(`${id}`).height()+(margin*2)])	
 	
-	let barHeight = 25
+	let barHeight = Math.ceil(h/(data.length))
 	let height = Math.ceil((data.length + 0.1) * barHeight) + (margin*2)
 
 	x = d3.scaleLinear()
