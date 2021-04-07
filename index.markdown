@@ -92,9 +92,15 @@ layout: default
 	</div>
 	<h5>The mentioners</h5>
 	<svg id='viz_4' class='small_viz'></svg>
+	<div class='note'>
+		<p>
+			The ranking of the mentioners contained at the first place @jornalismoDados with 13649 outcoming citations. We decided to drop this information for the reasons explained in the next paragraphs. 
+		</p>
+	</div>
 	<h5>The most mentioned</h5>
 	<svg id='viz_5' class='small_viz'></svg>
 	<div class='texts' id='reason_jornalismoDados'>
+		<p><span class="TODO">REVIEW</span></p>
 		<p>
 			The most mentioned users and the ones who most mention were extracted from the raw graph to understand if there were any lonley wolf that was not captured from the algorithm. 
 		</p>

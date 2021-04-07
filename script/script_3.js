@@ -1,24 +1,29 @@
 document.addEventListener('DOMContentLoaded', function(event) { 
 	spreaders = [
-			{name : 'journalismoDados', ments: 4355, cluster: -1},
-			{name : 'gijn', ments: 585, cluster:  0 },
-			{name : 'WarningGraphicC', ments: 265, cluster: 1},
-			{name : 'VisualOfData', ments: 81, cluster:  -1},
-			{name : 'ujigis', ments: 71, cluster: -1},
-			{name : 'datajournalism', ments: 66, cluster: 3}
+			//{name : 'journalismoDados', ments: 13649, cluster: -1},
+			{name : 'gijnRu', ments: 1377, cluster:  -1},
+			{name : 'gijn', ments: 757, cluster:  0 },
+			{name : 'WarningGraphicC', ments: 432, cluster: 1},
+			{name : 'gijnAfrica', ments: 124, cluster:  1},
+			{name : 'ujigis', ments: 113, cluster:  -1},
+			{name : 'VisualOfData', ments: 101, cluster:  -1},
+			{name : 'datajournalism', ments: 91, cluster: 3},
+			{name : 'pinardag', ments: 70, cluster: 1},
+			{name : 'umarhassan96', ments: 60, cluster: -1},
+			{name : 'cijournalism', ments: 59, cluster: 0}
 		]
 	
 	publishers = [
-		{name : 'EscolaDeDados', ments: 552, cluster: 0},
-		{name : 'datajournalism', ments: 361, cluster: 3},
-		{name : 'gijn', ments: 312, cluster: 0},
-		{name : 'AJLabs', ments: 281, cluster: 2},
+		{name : 'EscolaDeDados', ments: 549, cluster: 0},
+		{name : 'datajournalism', ments: 357, cluster: 3},
+		{name : 'gijn', ments: 309, cluster: 0},
+		{name : 'AJLabs', ments: 272, cluster: 2},
 		{name : 'folha', ments: 268, cluster: 0},
 		{name : 'AJEnglish', ments: 241, cluster: 1},
-		{name : 'abraji', ments: 238, cluster: 0},
+		{name : 'abraji', ments: 237, cluster: 0},
 		{name : 'IJNetPortugues', ments: 197, cluster: 2},
 		{name : 'juditecypreste', ments: 195, cluster: 0},
-		{name : 'sigmaawards', ments: 177, cluster: 2}
+		{name : 'andrefran', ments: 167, cluster: -1}
 	]
 	
 	bar(spreaders, '#viz_4')
