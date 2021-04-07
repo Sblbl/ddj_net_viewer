@@ -1,31 +1,36 @@
 document.addEventListener('DOMContentLoaded', function(event) { 
-	spreaders = [
-			{name : 'journalismoDados', ments: 4355, cluster: -1},
-			{name : 'gijn', ments: 585, cluster:  0 },
-			{name : 'WarningGraphicC', ments: 265, cluster: 1},
-			{name : 'VisualOfData', ments: 81, cluster:  -1},
-			{name : 'ujigis', ments: 71, cluster: -1},
-			{name : 'datajournalism', ments: 66, cluster: 3}
+	with_rt = [
+			// {name : 'jornalismoDados', tweets : 6773, cluster : -1},
+			{name : 'pinardag', tweets : 373, cluster : 1},
+			{name : 'gijn', tweets : 284, cluster : 0},
+			{name : 'gijnRu', tweets : 254, cluster : -1},
+			{name : 'DagmedyaVeri', tweets : 203, cluster : -1},
+			{name : 'margymaclibrary', tweets : 188, cluster : -1},
+			{name : 'ClarakDoe', tweets : 107, cluster : -1},
+			{name : 'datajournalism', tweets : 106, cluster : 3},
+			{name : 'Arastiriyorum', tweets : 100, cluster : -1},
+			{name : 'paulbradshaw', tweets : 88, cluster : 4},
+			{name : 'bbbcccnnn', tweets : 80, cluster : -1}
 		]
 	
-	publishers = [
-		{name : 'EscolaDeDados', ments: 552, cluster: 0},
-		{name : 'datajournalism', ments: 361, cluster: 3},
-		{name : 'gijn', ments: 312, cluster: 0},
-		{name : 'AJLabs', ments: 281, cluster: 2},
-		{name : 'folha', ments: 268, cluster: 0},
-		{name : 'AJEnglish', ments: 241, cluster: 1},
-		{name : 'abraji', ments: 238, cluster: 0},
-		{name : 'IJNetPortugues', ments: 197, cluster: 2},
-		{name : 'juditecypreste', ments: 195, cluster: 0},
-		{name : 'sigmaawards', ments: 177, cluster: 2}
+	no_rt = [
+		{name : 'gijn', tweets : 262, cluster : 0},
+		{name : 'gijnRu', tweets : 253, cluster : -1},
+		{name : 'pinardag', tweets : 181, cluster : 1},
+		{name : 'DagmedyaVeri', tweets : 78, cluster : -1},
+		{name : 'datajournalism', tweets : 70, cluster : 3},
+		{name : 'DatasAfrica', tweets : 63, cluster : -1},
+		{name : 'umarhassan96', tweets : 62, cluster : -1},
+		{name : 'WarningGraphicC', tweets : 60, cluster : 1},
+		{name : 'VisualOfData', tweets : 58, cluster : -1},
+		{name : 'gijnAfrica', tweets : 55, cluster : 1}
 	]
 	
-	bar(spreaders, '#viz_4')
-	bar(publishers, '#viz_5')
+	bar_active(with_rt, '#viz_6')
+	bar_active(no_rt, '#viz_7')
 })
 
-function bar(data, id) {
+function bar_active(data, id) {
 	let margin = 45
 	let svg_3 = d3.select(id)
 
@@ -35,7 +40,7 @@ function bar(data, id) {
 	let height = Math.ceil((data.length + 0.1) * barHeight) + (margin*2)
 
 	x = d3.scaleLinear()
-		.domain([0, d3.max(data, d => d.ments)])
+		.domain([0, d3.max(data, d => d.tweets)])
 		.range([margin, width - margin])
 
 	let y = d3.scaleBand()
@@ -67,7 +72,7 @@ function bar(data, id) {
 				}
 				
 			})
-			.attr('width', d => x(d.ments) - x(0))
+			.attr('width', d => x(d.tweets) - x(0))
 			.attr('height', y.bandwidth())
 	  
 	svg_3.append('g')
@@ -78,12 +83,12 @@ function bar(data, id) {
 	.selectAll('text')
 	.data(data)
 	.join('text')
-		.attr('x', d => x(d.ments))
+		.attr('x', d => x(d.tweets))
 		.attr('y', (d, i) => y(i) + y.bandwidth() / 2)
 		.attr('dy', '0.35em')
 		.attr('dx', -4)
-		.text(d => format(d.ments))
-		.call(text => text.filter(d => x(d.ments) - x(0) < 20) // short bars
+		.text(d => format(d.tweets))
+		.call(text => text.filter(d => x(d.tweets) - x(0) < 20) // short bars
 			.attr('dx', +4)
 			.attr('fill', 'black')
 			.attr('text-anchor', 'start')

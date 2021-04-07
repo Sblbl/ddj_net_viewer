@@ -112,6 +112,13 @@ a {
 	font-family: 'IBM Plex Serif';
 }
 
+.note {
+	background-color: rgba(240,255,240, .5);
+	font-size: 8pt;
+	font-family: Roboto;
+	padding: 0 12px 12px;
+}
+
 
 /*LEGENDS*/
 #group_legend {
