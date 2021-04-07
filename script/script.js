@@ -23,7 +23,6 @@ document.addEventListener('DOMContentLoaded', function(event) {
 	plot('JSON/net.json') 
 
 	$(window).resize( function(){
-		$('#viz_1').empty()
 		plot('JSON/net.json') 
 	})
 })
@@ -36,7 +35,8 @@ function plot(file) {
 
 
 function bilevel_edge(data) {
-	const svg = d3.select('#viz_1')
+	$('#viz_1').empty()
+	let svg = d3.select('#viz_1')
 	data = create_data(data)
 
 	const root = tree(bilink(d3.hierarchy(data)
