@@ -1,4 +1,3 @@
-const svg = d3.select('#viz_1')
 const colorin = '#4169E1',
 		colorout = '#FA8072',
 		colornone = '#ccc',
@@ -37,7 +36,7 @@ function plot(file) {
 
 
 function bilevel_edge(data) {
-
+	const svg = d3.select('#viz_1')
 	data = create_data(data)
 
 	const root = tree(bilink(d3.hierarchy(data)
