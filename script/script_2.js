@@ -23,6 +23,7 @@ document.addEventListener('DOMContentLoaded', function(event) {
 })
 
 function hist(data, id, col) {
+	$(id).empty()
 	let height = $(id).height()
 	
 	let margin = 35
