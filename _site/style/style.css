@@ -55,6 +55,17 @@ a {
 	font-family: 'IBM Plex Serif'; 
 }
 
+h2 {
+	top: 48px;
+	position: sticky;
+	background-color: #000;
+	color: #FFF;
+	padding: 8px 0 12px;
+	text-align: left;
+	font-family: 'IBM Plex Serif';
+	text-align: center;
+}
+
 
 /*SECTION*/
 .section {
@@ -65,9 +76,11 @@ a {
 	top: 48px;
 	position: sticky;
 	background-color: #FFF;
+	color: #000;
 	padding: 8px 0 12px;
 	text-align: left;
 	font-family: 'IBM Plex Serif';
+	text-align: left;
 }
 
 .section h5 {

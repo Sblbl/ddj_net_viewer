@@ -1,6 +1,19 @@
 ---
 layout: default
 ---
+<div id='introduction' class='section'>
+	<h2>Introduction</h2>
+	<div class='texts'>
+		<p><span class='TODO'>TODO INTRO</span></p>
+		<h5>Research Objectives</h5>
+		<p><span class='TODO'>TODO</span></p>
+		<h5>Method</h5>
+		<p><span class='TODO'>TODO</span></p>
+		<h5>Analysis steps</h5>
+		<p><span class='TODO'>TODO</span></p>
+	</div>
+</div>
+<h2>Step 1 - the communities</h2>
 <div class='section'>
 	<h2>Communities: a general view</h2>
 	<svg id='viz_1'></svg>
@@ -42,83 +55,7 @@ layout: default
 		</p>
 	</div>
 </div>
-<div class='section'>
-	<h2>Roles and actors in the network</h2>
-	<h5>Distribution of incoming mentions</h5>
-	<svg id='viz_2' class='small_viz'></svg>
-	<h5>Distribution of outcoming mentions</h5>
-	<svg id='viz_3' class='small_viz'></svg>
-	<div class='texts'>
-		<p>
-			There are three classes of users: the mostly inactive, the spreaders (those who mention other users), and the ones that are mostly mentinoed: the stars.
-		</p>
-		<p>
-			As we can expect, the majority of users fall in the first category: the casual users. Most of them were excluded from the analysis.
-			For what concerns the other two classes, it emerged that they don't often overlap: the cases at the limit of the distributions tend to primarly mention other users or to be cited by many people. 
-		</p>
-		<p>
-			This is not surprising since there exist accounts made for spreading specific contents made by and addressed to a precise target, in this case (data) journalists, activists, and designers. 
-		</p>
-	</div>
-	<h2>A deeper glance at the most important users</h2>
-	<div class='texts'>
-		<p>
-			It is useful to understand in what measure each user contributes to the Data Journalism community on Twitter. This section reveals the most active users and the most influential.
-		</p>
-		<p>
-			A profile is considered <strong>active</strong> if it produces a large amount of tweets. 
-		</p>
-		<p>
-			It is considered <strong>influential</strong> if many other users cite its work.
-		</p>
-		<p>
-			A tweet action consist in the publication of original content or in the sharing of a third part content (retweet), by consequence a user can be considered active also if they retweet a lot.
-		</p>
-		<p>
-			Two rankings were then realised: one including retweets as valid contributions, and the other excluding them because they do not add original material.
-		</p>
-	</div>
-	<h5>Ranking including retweet activity</h5>
-	<svg id='viz_6' class='small_viz'></svg>
-	<div class='note'>
-		<p>
-			The ranking including retweets contained at the first place @jornalismoDados with 6773 tweets. We decided to drop this information for the reasons explained in the <a href='#reason_jornalismoDados'>following subsection</a>. 
-		</p>
-	</div>
-	<h5>Ranking excluding retweet activity</h5>
-	<svg id='viz_7' class='small_viz'></svg>
-	<div class='texts'>
-		<p><span class="TODO">AS WE CAN SEE</span></p>
-	</div>
-	<h5>The mentioners</h5>
-	<svg id='viz_4' class='small_viz'></svg>
-	<div class='note'>
-		<p>
-			The ranking of the mentioners contained at the first place @jornalismoDados with 13649 outcoming citations. We decided to drop this information for the reasons explained in the next paragraphs. 
-		</p>
-	</div>
-	<h5>The most mentioned</h5>
-	<svg id='viz_5' class='small_viz'></svg>
-	<div class='texts' id='reason_jornalismoDados'>
-		<p><span class="TODO">REVIEW</span></p>
-		<p>
-			The most mentioned users and the ones who most mention were extracted from the raw graph to understand if there were any lonley wolf that was not captured from the algorithm. 
-		</p>
-		<p>A big anomaly was suddenly found: the two users at the top
-			of the ranks, <a href='https://twitter.com/EscolaDeDados' target='blank'>@EscolaDeDados</a> and @journalismoDados are in reality part of the same group and they always mention each other. The latter is now inexisting but it is likely it was managed by the same person of the former, and that  it was deleted before 2020 in favor of <a href='https://twitter.com/EscolaDeDados' target='blank'>@EscolaDeDados</a>, which is part of <a href='#cluster_0' class='g_0'>cluster 0</a>.
-		</p>
-		<p>
-			And it is exaclty from <a href='#cluster_0' class='g_0'>cluster 0</a> that most of the most mentioned users come, toghether with <a href='#cluster_2' class='g_2'>cluster 2</a>. 
-		</p>
-		<p>
-			Since the distribution of the most mentioned users is more likely, it can be trusted that <a href='https://twitter.com/EscolaDeDados' target='blank'>@EscolaDeDados</a> (at the first place)is the true top star. 
-		</p>
-		<p>An exception of what has been said before is that <a href='https://twitter.com/gijn' target='blank'>@gijn</a> is
-			on the top of both ranks, suggesting its role of importance in the Data Journalism Twitter environment. 
-		</p>
-	</div>
-</div>
-<div class='section'>
+<div id='communities_in_depth' class='section'>
 	<h2>The communities</h2>
 	<p>
 		How does each community contribute and act in the Data Journalism field? In this section, each cluster is analysed to reveal its nature.
@@ -196,6 +133,106 @@ layout: default
 		</p>
 		<p> 
 			The other two accounts, Earth Journalism Network (<a href='https://twitter.com/earthjournalism' target='blank'>@earthjournalism</a>) and Resources Watch (<a href='https://twitter.com/resource_watch' target='blank'>@resource_watch</a>) are both initiated in US, addressing environmental topics.
+		</p>
+	</div>
+</div>
+<div id='roles_in_net' class='section'>
+	<h2>Roles in the network</h2>
+	<h5>Distribution of incoming mentions</h5>
+	<svg id='viz_2' class='small_viz'></svg>
+	<h5>Distribution of outcoming mentions</h5>
+	<svg id='viz_3' class='small_viz'></svg>
+	<div class='texts'>
+		<p>
+			There are three classes of users: the mostly inactive, the spreaders (those who mention other users), and the ones that are mostly mentinoed: the stars.
+		</p>
+		<p>
+			As we can expect, the majority of users fall in the first category: the casual users. Most of them were excluded from the analysis.
+			For what concerns the other two classes, it emerged that they don't often overlap: the cases at the limit of the distributions tend to primarly mention other users or to be cited by many people. 
+		</p>
+		<p>
+			This is not surprising since there exist accounts made for spreading specific contents made by and addressed to a precise target, in this case (data) journalists, activists, and designers. 
+		</p>
+	</div>
+</div>
+<div id='local_actors' class='section'>
+	<h2>Actors in the network</h2>
+	<div class='texts'>
+		<p>
+			It is useful to understand in what measure each user contributes to the Data Journalism community on Twitter. This section reveals the most active users and the most influential.
+		</p>
+		<p>
+			A profile was considered <strong>active</strong> if it produces a large amount of tweets. 
+		</p>
+		<p>
+			It was considered <strong>influential</strong> if many other users cite its work.
+		</p>
+		<p>
+			A Tweeter action consists in the publication of an original (tweet) or of a third part (retweet) content; by consequence a user can be considered active also if they retweet a lot.
+		</p>
+		<p>
+			About activness, two rankings were realised: one considering retweets as valid contributions, and the other excluding them because they do not contain original material.
+		</p>
+	</div>
+	<h5>Ranking including retweet activity</h5>
+	<svg id='viz_8' class='small_viz'></svg>
+	<h5>Ranking excluding retweet activity</h5>
+	<svg id='viz_9' class='small_viz'></svg>
+	<div class='texts'>
+		<p><span class="TODO">AS WE CAN SEE</span></p>
+	</div>
+	<h5>The mentioners</h5>
+	<svg id='viz_10' class='small_viz'></svg>
+	<h5>The most mentioned</h5>
+	<svg id='viz_11' class='small_viz'></svg>
+	<div class='texts'>
+		<p><span class="TODO">AS WE CAN SEE</span></p>
+	</div>
+</div>
+<div id='global_actors' class='section'>
+	<h2>A global glance at the most important users</h2>
+	<div class='texts'>
+		<p>
+			It is useful to compare the local rankings (inside the network) with the global ones because some important actors not strongly belonging to a community could emerge.
+		</p>
+	</div>
+	<h5>Ranking including retweet activity</h5>
+	<svg id='viz_6' class='small_viz'></svg>
+	<div class='note'>
+		<p>
+			The ranking including retweets contained at the first place @jornalismoDados with 6773 tweets. We decided to drop this information for the reasons explained in the <a href='#reason_jornalismoDados'>following subsection</a>. 
+		</p>
+	</div>
+	<h5>Ranking excluding retweet activity</h5>
+	<svg id='viz_7' class='small_viz'></svg>
+	<div class='texts'>
+		<p><span class="TODO">AS WE CAN SEE</span></p>
+	</div>
+	<h5>The mentioners</h5>
+	<svg id='viz_4' class='small_viz'></svg>
+	<div class='note'>
+		<p>
+			The ranking of the mentioners contained at the first place @jornalismoDados with 13649 outcoming citations. We decided to drop this information for the reasons explained in the next paragraphs. 
+		</p>
+	</div>
+	<h5>The most mentioned</h5>
+	<svg id='viz_5' class='small_viz'></svg>
+	<div class='texts' id='reason_jornalismoDados'>
+		<p><span class="TODO">REVIEW</span></p>
+		<p>
+			The most mentioned users and the ones who most mention were extracted from the raw graph to understand if there were any lonley wolf that was not captured from the algorithm. 
+		</p>
+		<p>A big anomaly was suddenly found: the two users at the top
+			of the ranks, <a href='https://twitter.com/EscolaDeDados' target='blank'>@EscolaDeDados</a> and @journalismoDados are in reality part of the same group and they always mention each other. The latter is now inexisting but it is likely it was managed by the same person of the former, and that  it was deleted before 2020 in favor of <a href='https://twitter.com/EscolaDeDados' target='blank'>@EscolaDeDados</a>, which is part of <a href='#cluster_0' class='g_0'>cluster 0</a>.
+		</p>
+		<p>
+			And it is exaclty from <a href='#cluster_0' class='g_0'>cluster 0</a> that most of the most mentioned users come, toghether with <a href='#cluster_2' class='g_2'>cluster 2</a>. 
+		</p>
+		<p>
+			Since the distribution of the most mentioned users is more likely, it can be trusted that <a href='https://twitter.com/EscolaDeDados' target='blank'>@EscolaDeDados</a> (at the first place)is the true top star. 
+		</p>
+		<p>An exception of what has been said before is that <a href='https://twitter.com/gijn' target='blank'>@gijn</a> is
+			on the top of both ranks, suggesting its role of importance in the Data Journalism Twitter environment. 
 		</p>
 	</div>
 </div>

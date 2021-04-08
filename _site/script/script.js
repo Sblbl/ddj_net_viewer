@@ -1,4 +1,3 @@
-const svg = d3.select('#viz_1')
 const colorin = '#4169E1',
 		colorout = '#FA8072',
 		colornone = '#ccc',
@@ -20,11 +19,9 @@ document.addEventListener('DOMContentLoaded', function(event) {
 	$('#group_legend').append(`<h5>Mentions</h5>`)
 	$('#group_legend').append(`<p><span class="material-icons" style='color:${colorout}'>fiber_manual_record</span> outc. mentions</p>`)
 	$('#group_legend').append(`<p><span class="material-icons" style='color:${colorin}'>fiber_manual_record</span> inc. mentions</p>`)
-	svg.attr('viewBox', [-width/2 -40, -width/2 - 120, width + 80, width + 240])
 	plot('JSON/net.json') 
 
 	$(window).resize( function(){
-		$('#viz_1').empty()
 		plot('JSON/net.json') 
 	})
 })
@@ -37,7 +34,9 @@ function plot(file) {
 
 
 function bilevel_edge(data) {
-
+	$('#viz_1').empty()
+	let svg = d3.select('#viz_1')
+	svg.attr('viewBox', [-width/2 -40, -width/2 - 120, width + 80, width + 240])
 	data = create_data(data)
 
 	const root = tree(bilink(d3.hierarchy(data)
