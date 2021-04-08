@@ -60,7 +60,7 @@ h2 {
 	position: sticky;
 	background-color: #000;
 	color: #FFF;
-	padding: 8px 0 12px;
+	padding: 8px 0 8px;
 	text-align: left;
 	font-family: 'IBM Plex Serif';
 	text-align: center;
@@ -70,7 +70,7 @@ h2 {
 /*SECTION*/
 .section {
 	text-align: center;
-	padding-bottom: 64px;
+	padding-bottom: 48px;
 }
 
 .section h2 {
@@ -92,6 +92,13 @@ h2 {
 
 .section p {
 	text-align: left;
+	font-family: 'IBM Plex Serif';
+	margin-top: 8pt;
+	margin-bottom: 16pt;
+}
+
+.section li {
+
 	font-family: 'IBM Plex Serif';
 	margin-top: 8pt;
 }
@@ -151,6 +158,7 @@ h2 {
 
 #group_legend p {
 	margin-top: 0;
+	margin-bottom: 0;
 	font-family: Roboto;
 	font-size: 10pt;
 	font-weight: 300;
@@ -223,6 +231,20 @@ span.material-icons {
 
 	.node {
 		font-size: 12.5pt;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	main {
+		width: 100vw;
+		margin-left: 0;
+	}
+	.node {
+		font-size: 6pt;
+	}
+
+	#group_legend {
+		display: none;
 	}
 }
 

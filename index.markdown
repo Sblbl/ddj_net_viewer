@@ -4,9 +4,24 @@ layout: default
 <div id='introduction' class='section'>
 	<h2>Introduction</h2>
 	<div class='texts'>
-		<p><span class='TODO'>TODO INTRO</span></p>
+		<p>
+			With the ever-changing landscape in the digital world, there is massive information as well as methods to present that information online. As a practical method, data journalism has been increasingly prevalent. 
+		</p>
 		<h5>Research Objectives</h5>
-		<p><span class='TODO'>TODO</span></p>
+		<p>
+			Our research aims to discern the most active users and communities formed around data journalism keywords and hashtags. By generating network visualisation along with reports that highlight key people and groups in the discussions, to better understand the ecosystem of data journalism and those real people behind their accounts. In particular, this analysis focuses on:
+		</p>
+		<ul>
+			<li>
+				Discerning the most influential or most active accounts in data journalism on Twitter. The key point is to understand what qualities they have that make them vital. 
+			</li>
+			<li>
+				Finding the discussion communities, and see if there are roles such as connectors and opinion leaders within these communities. 
+			</li>
+			<li>
+				Understanding the geographical and cultural gaps in the dataset, and to discern data journalism’s role in the international power of discourse on social media. 
+			</li>
+		</ul>
 		<h5>Method</h5>
 		<p><span class='TODO'>TODO</span></p>
 		<h5>Analysis steps</h5>
@@ -48,7 +63,7 @@ layout: default
 			Before generating the graph, the less active users have been pruned to avoid generating noisy data. A minimum of five incoming mentions and five outcoming ones has empirically been found as a good threshold. 
 		</p>
 		<p>
-			The Leiden algorithm was successively used to extract the communities. This is a technique used in Social Network Analysis capable to generate well-connected clusters. It starts by considering each individual as a community and progressively merging the nearest groups, until a good partitioning is found.
+			The <a href='https://www.nature.com/articles/s41598-019-41695-z'>Leiden algorithm</a> was successively used to extract the communities. This is a technique used in Social Network Analysis capable to generate well-connected clusters. It starts by considering each individual as a singleton community and progressively merging the nearest groups, until a good partitioning is found. The quality of the partitioning is evaluated by comparing the connections between the communities after the merging and seeing if it improves.
 		</p>
 		<p>
 			Ten communities over twelve originated were considered as valid because of their size and of their relaitions with the others. The geographical area was found to be significantly impacting over the construction of Data Journalism communities, as will be exposed.
@@ -58,7 +73,7 @@ layout: default
 <div id='communities_in_depth' class='section'>
 	<h2>The communities</h2>
 	<p>
-		How does each community contribute and act in the Data Journalism field? In this section, each cluster is analysed to reveal its nature.
+		How does each community contribute and act in the Data Journalism field? In this section, each cluster is analysed to discern its nature.
 	</p>
 	<div id='cluster_0' class='subsection'>
 		<h5 class='g_0'>Cluster 0: the big soup</h5>
@@ -72,7 +87,7 @@ layout: default
 	<div id='cluster_1' class='subsection'>
 		<h5 class='g_1'>Cluster 1: news organizations and data teams</h5>
 		<p>
-			This community mainly contains accounts of big news organizations and their data teams, data visualization tools, and non-profit organizations. These accounts seldom mention others within or outside their cluster. 
+			This community mainly contains accounts of big news organizations and their teams, data visualization tools, and non-profit organizations. These accounts seldom mention others within or outside their cluster. 
 		</p>
 		<p>
 			The reason why they are grouped together is probably they are either mentioned by <a href='https://twitter.com/gijnafrica' target='blank'>@gijnafrica</a> or <a href='https://twitter.com/WarningGraphicC' target='blank'>@WarningGraphicC</a>, with the former dedicating in sharing investigative journalism and the latter providing daily links on data journalism and visualization. 
@@ -159,34 +174,45 @@ layout: default
 	<h2>Actors in the network</h2>
 	<div class='texts'>
 		<p>
-			It is useful to understand in what measure each user contributes to the Data Journalism community on Twitter. This section reveals the most active users and the most influential.
+			It is useful to understand in what measure each user contributes to the Data Journalism community on Twitter. This section reveals the most active, the most influential, and the spreaders users. For the moment, the ranking excludes the users outside the communities so that it is possible to discover eventual dominances inside them. 
 		</p>
 		<p>
-			A profile was considered <strong>active</strong> if it produces a large amount of tweets. 
-		</p>
-		<p>
-			It was considered <strong>influential</strong> if many other users cite its work.
-		</p>
-		<p>
-			A Tweeter action consists in the publication of an original (tweet) or of a third part (retweet) content; by consequence a user can be considered active also if they retweet a lot.
+			A profile was considered <strong>active</strong> if it produces a large amount of tweets, <strong>influential</strong> if many other users cite its work. It was named a <strong>spreader</strong> if it maily retweet other users' work.
 		</p>
 		<p>
 			About activness, two rankings were realised: one considering retweets as valid contributions, and the other excluding them because they do not contain original material.
 		</p>
+		<p>
+			Since a Tweeter action consists in the publication of an original (tweet) or of a third part (retweet) content, a user can be considered active also if they retweet a lot. For this reason, we excluded retweets in the count of mentions when looking for the spreaders and the influencers.
+		</p>
 	</div>
-	<h5>Ranking including retweet activity</h5>
+	<h5>Activity ranking including retweets</h5>
 	<svg id='viz_8' class='small_viz'></svg>
-	<h5>Ranking excluding retweet activity</h5>
+	<h5>Activity ranking excluding retweets</h5>
 	<svg id='viz_9' class='small_viz'></svg>
 	<div class='texts'>
-		<p><span class="TODO">AS WE CAN SEE</span></p>
+		<p>
+			At a first glance, it seems more useful to look at the data without retweets. Here we can find that the 4 out of 10 users belong to <a href='#cluster_1' class='g_1'>cluster 1</a>. It is not so surprising, considering that it is primarly populated by big news agencies. 
+		</p>
+		<p>
+			<a href="https://twitter.com/gijn" target="blank">@gijn</a> can be considered the most active user, also considering the other plot: as we see, it retweeted only 22 times, much less than the 192 of <a href="https://twitter.com/pinadrag" target="blank">@pinadrag</a>. It is visible that these two users are significantly over the average number of #ddj tweets in 2020, around 2.5 (excluding the zero values).
+		</p>
 	</div>
 	<h5>The mentioners</h5>
 	<svg id='viz_10' class='small_viz'></svg>
 	<h5>The most mentioned</h5>
 	<svg id='viz_11' class='small_viz'></svg>
 	<div class='texts'>
-		<p><span class="TODO">AS WE CAN SEE</span></p>
+		<p>
+			This second analysis focuses on the level of interaction between the users (excluding retweets). The situation displayed by the plots shows <a href='#cluster_1' class='g_1'>cluster 1</a> as very present among the top 10 spreaders.
+		</p>
+		<p>
+			If <a href="https://twitter.com/pinadrag" target="blank">@pinadrag</a> disappears, <a href="https://twitter.com/gijn" target="blank">@gijn</a> continues to dominate the rankings, consolidating its role of authority in Data Journalism, at least on Twitter.
+			Also <a href="https://twitter.com/datajournalism" target="blank">@datajournalism</a>, the third most active user, confirms its position of importance becoming the second most mentioned in the network.
+		</p>
+		<p>
+			Another aspect to notice is that <a href='#cluster_0' class='g_0'>cluster 0</a> receives a large amount of mentions. Given the nature of its composition it can be foreseen that these are principally interactions inside the cluster. A qualitative proof of that is the visual display of the community in the <a href='#viz_1'>network visualisation</a> at the beginning of the article. 
+		</p>
 	</div>
 </div>
 <div id='global_actors' class='section'>
