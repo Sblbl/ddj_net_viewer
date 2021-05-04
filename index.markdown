@@ -678,7 +678,8 @@ layout: default
 		</p>
 	</div>
 </div>
-<h2>Analysis #01 - #ddj protagonists</h2>
+<h2>Analysis #01</h2>
+<h2>#ddj protagonists</h2>
 <div id='roles_in_net' class='section'>
 	<h2>Description</h2>
 	<div class='texts'>
@@ -815,7 +816,7 @@ layout: default
 	</div>
 </div>
 <h2>Analysis #02</h2>
-<h2>The geography of voices (who is missing)</h2>
+<h2>The geography of voices</h2>
 <div class='section'>
 	<h2>Description</h2>
 	<div class='texts'>
