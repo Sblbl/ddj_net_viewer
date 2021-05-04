@@ -83,58 +83,53 @@ layout: default
 	<div id='cluster_0' class='subsection'>
 		<h5 class='g_0'>Cluster 0: the big soup</h5>
 		<p>
-			Cluster 0 witnesses a higher level of diversity with respect of account owners' nationality, active region and identity. It involves users from Europe (about 63% Germany), North America (90% US), Central and South America (nearly 92% Brazil), along with some accounts from Asia and Africa.
+			C0 witnesses a high level of diversity regarding accounts' nationality, active region and identity. It involves users from Europe (about 63% Germany), North America (90% US), Central and South America (nearly 92% Brazil), and some from Asia and Africa. Nearly all accounts are mentioned by the Global Investigative Journalism Network (@gijn). As the most active account, @gijn frequently mentions other accounts in C0, partly because it publishes daily lists of top 10 ddj works. 
 		</p>
 		<p>
-			Quite all the accounts are mentioned by <a href='https://twitter.com/gijn' target='blank'>@gijn</a> (Global Investigative Journalism Network) but this is not a discriminator from other communities, since many users from <a href='#cluster_1' class='g_1'>cluster 1</a>, <a href='#cluster_2' class='g_2'>cluster 2</a>, <a href='#cluster_3' class='g_3'>cluster 3</a>, and <a href='#cluster_4' class='g_4'>cluster 4</a> are mentioned by this organisation. 
+			Accounts based in Central and South America make up a large proportion, one from Mexico (@EI_UniversaI_Mx), one from El Salvador (@elsalvadorcom) and twenty-two from Brazil. With Brazilian actors taking up 32% of the whole cluster, it is not surprising to find that this clique consists of journalists working for media organisations like @Metropoles, @Fiquem Sabendo (both members of C0) and @G1 (C8). Brazilian accounts are predominant in quantity and involve data journalists, data aggregators, news media, investigative journalism organisations, and non-governmental organisations. 
+		</p>
+		<p>
+			Germany, the most frequent European country in C0, is represented by press professionals, like the South German Newspaper (@SZ), The Daily Mirror (@Tagesspiegel) and their journalists, whose influence sometimes reaches a global range. Their professional labels (data journalist, data visualisation personnel, programming journalist) demonstrates a clear division of work and a mature data journalism ecosystem. 
+			Actors in North America (the US and Canada)  also have global  influence.
 		</p>
 	</div>
 	<div id='cluster_1' class='subsection'>
 		<h5 class='g_1'>Cluster 1: news organizations and data teams</h5>
 		<p>
-			This community mainly contains accounts of big news organizations and their teams, data visualization tools, and non-profit organizations. These accounts seldom mention others within or outside their cluster. 
-		</p>
-		<p>
-			The reason why they are grouped together is probably they are either mentioned by <a href='https://twitter.com/gijnafrica' target='blank'>@gijnafrica</a> or <a href='https://twitter.com/WarningGraphicC' target='blank'>@WarningGraphicC</a>, with the former dedicating in sharing investigative journalism and the latter providing daily links on data journalism and visualization. 
+			C1 mainly belongs to big news organizations and their data teams, which seldom mention others within this community, or any other accounts outside it. The reason for this grouping is probably that users  are either mentioned by @gijnafrica or @WarningGraphicC (the former shares investigative journalism, the latter data journalism and visualization references).
 		</p>
 	</div>
 	<div id='cluster_2' class='subsection'>
 		<h5 class='g_2'>Cluster 2: non-profit journalist network organizations and Sigma Awards</h5>
 		<p>
-			Cluster two is composed of non-profit journalist network organizations and accounts around sigma awards. Most of these journalist network organizations are interrelated and have a partnership with each other. Besides, there are accounts of sigma awards and its founders and managers. In the meanwhile, the journalist network organizations such as <a href='https://twitter.com/IJNet' target='blank'>@IJNet</a> and <a href='https://twitter.com/IRE' target='blank'>@IRE</a> are sigma awards’ media partners, which indicates that sigma awards has a close connection with those international and regional journalist centers. 
+			C2 collects non-profit journalism organizations and accounts linked to the Sigma Awards. Most of these accounts are linked with each other and belong to the Sigma Awards management team or are media partners (such as @IJNet and @IRE). This indicates that the organisation has a regional and international role.
 		</p>
 	</div>
 	<div id='cluster_3' class='subsection'>
 		<h5 class='g_3'>Cluster 3: around datajournalism.com</h5>
 		<p>
-			This community revolves around <a href='https://twitter.com/datajournalism' target='blank'>@datajournalism</a>, which mentions almost every account in this cluster. The accounts are mainly regional media organizations and data journalists around the world. Six of them are also contributors of datajournalism.com.
+			C3 revolves around @datajournalism, which mentions almost every account in the cluster. These accounts are mainly regional media organizations and data journalists around the world. Among them, six are contributors of datajournalism.com.
 		</p>
 	</div>
 	<div id='cluster_4' class='subsection'>
 		<h5 class='g_4'>Cluster 4: BBC and BCU</h5>
 		<p>
-			In this cluster we can mainly find British data journalists' personal accounts, which can be divided into BBC-related accounts and BCU-related accounts.
-		</p>
-		<p>
-			The former are those who used to work or currently work for BBC, while the latter either teach or receive the data journalism-related degree in Birmingham City University. 
-		</p>
-		<p>
-			The reason why these two groups of accounts are merged into one cluster is that <a href='https://twitter.com/paulbradshaw' target='blank'>@paulbradshaw</a> has interaction with both BBC-related accounts and BCU-related accounts. He has worked with the BBC England data unit since 2015, and leads the MA in Data, Multiplatform and Mobile Journalism at Birmingham City University.
+			C4 involves British data journalists’ accounts, which can be divided into BBC-related and BCU-related. The former used to or currently work for BBC; the latter either studied or teach at theData, Multiplatform and Mobile Journalism MA in Birmingham City University. These two groups of accounts are merged into one cluster because @paulbradshaw has interaction with both BBC-related accounts and BCU-related accounts. He has worked with the BBC England data unit since 2015, and leads the MA at Birmingham City University.
 		</p>
 	</div>
 	<div id='cluster_5' class='subsection'>
 		<h5 class='g_5'>Cluster 5: Nigeria</h5>
 		<p>
-			The 80% of this cluster’s accounts is originary from Nigeria. Although they are not dominant in numbers, these accounts have showed variety in respect of category. Among them there are civic organisation, international development, non-governmental organisations, research organisation, news agency.
+			80% of this cluster's users are from Nigeria. These accounts have shown variety in category: there are organisations interested in civic topics, research and international development, non-governmental associations, news agencies, but also journalists and entrepreneurs who own an online study website of data methods (@Dataphyte). 
 		</p>
 		<p> 
-			It emerges <a href='https://twitter.com/Dataphyte' target='blank'>@Dataphyte</a>, a journalist and entrepreneur who has started online study website of data methods.
+			90% of them aim to promote the transparency of the Nigerian government and the financial progress of Africa.
 		</p>
 	</div>
 	<div id='cluster_6' class='subsection'>
 		<h5 class='g_6'>Cluster 6: Northern Europe</h5>
 		<p>
-			All of this cluster’s accounts originate in Western and Northern European countries like Netherlands, France and Denmark, or locate in the capital of European Union, Brussels. 
+			All of this cluster's accounts originate in Western and Northern Europe (Belgium, Netherlands, France and Denmark). About 44% of them are organisations, including the EU-funded data portal and NPO focusing on journalism. Nearly 46% of them are personal accounts either of journalism practitioners or academics. The former, like @EmmaQvirinHolst and @HecquetK, work for @Altinget.dk, a party-politically independent Danish online newspaper. The latter, like @claesdevreese and @KGattermann, are researchers from University of Amsterdam specialised in political communication. 
 		</p>
 		<p> 
 			The most active accounts of this cluster are EU <a href='https://twitter.com/EU_opendata' target='blank'>@EU_opendata</a>, an event to be held in 23-25th November 2021, and a student assistant editor <a href='https://twitter.com/MarieSchoenning' target='blank'>@MarieSchoenning</a> of UvA Amsterdam, an intellectual hub of the Netherlands.
@@ -143,52 +138,85 @@ layout: default
 	<div id='cluster_78' class='subsection'>
 		<h5 class='no_g'><span class='g_7'>Cluster 7</span> and <span class='g_8'>Cluster 8</span>: Brazil</h5>
 		<p>
-			The accounts within these two clusters are in Brazil, addressing politics, education, health, security issues in Brazil and sometimes Latin America. Another thing they have in common is that they are all professionals in journalism. 
+			hese clusters are located in Brazil, and talk about politics, education, health, security issues in Brazil and sometimes in Latin America. They are composed by journalism professionals.  
+		</p>
+		<p>
+			C7 is a Brazilian journalists’ group, with one exception: the Center for Politics and Economics in the Public Sector Studies (@cepesp). @gabrielacaesar (C7) is a journalist working for @G1, a global news portal based in Brazil, active member of C8.
+		</p>
+		<p>
+			As the only personal account in C8, @giubianconi) is a data journalist who mainly covers gender, race and politics in Latin America, and seems to connect the cluster. Likewise, C7 is linked through @ge_brandino, the journalist who involves data reporting in her work.
 		</p>
 	</div>
 	<div id='cluster_9' class='subsection'>
 		<h5 class='g_9'>Cluster 9: global</h5>
 		<p>
-			Three organisation accounts led by western countries, radiating the whole world. It includes UN World Data Forum (<a href='https://twitter.com/UNDataForum' target='blank'>@UNDataForum</a>), which is an annual event funded by The United Nations. 
+			Three organisation accounts led by western countries, radiating the whole world. It includes UN World Data Forum (<a href='https://twitter.com/UNDataForum' target='blank'>@UNDataForum</a>) an annual event funded by The United Nations, which gathers data experts and users to spur data innovation, and builds a pathway to better data for sustainable development.
 		</p>
 		<p> 
-			The other two accounts, Earth Journalism Network (<a href='https://twitter.com/earthjournalism' target='blank'>@earthjournalism</a>) and Resources Watch (<a href='https://twitter.com/resource_watch' target='blank'>@resource_watch</a>) are both initiated in US, addressing environmental topics.
+			The other two accounts, Earth Journalism Network (<a href='https://twitter.com/earthjournalism' target='blank'>@earthjournalism</a>) and Resources Watch (<a href='https://twitter.com/resource_watch' target='blank'>@resource_watch</a>) are both initiated in the US, empowering journalists and data visualisation experts to explore global sustainable development by addressing environmental topics.
 		</p>
 	</div>
 </div>
+<h2>Analysis #01 - #ddj protagonists</h2>
 <div id='roles_in_net' class='section'>
-	<h2>Roles in the network</h2>
-	<h5>Distribution of incoming mentions</h5>
-	<svg id='viz_2' class='small_viz'></svg>
-	<h5>Distribution of outcoming mentions</h5>
-	<svg id='viz_3' class='small_viz'></svg>
+	<h2>Description</h2>
 	<div class='texts'>
 		<p>
-			There are three classes of users: the mostly inactive, the spreaders (those who mention other users), and the ones that are mostly mentinoed: the stars.
-		</p>
-		<p>
-			As we can expect, the majority of users fall in the first category: the casual users. Most of them were excluded from the analysis.
-			For what concerns the other two classes, it emerged that they don't often overlap: the cases at the limit of the distributions tend to primarly mention other users or to be cited by many people. 
-		</p>
-		<p>
-			This is not surprising since there exist accounts made for spreading specific contents made by and addressed to a precise target, in this case (data) journalists, activists, and designers. 
+			This section studies the individual contributions on the #ddj environment.
 		</p>
 	</div>
+	<h2>Question</h2>
+	<div class='texts'>
+		<p>
+			Finding the most active users and the most influential ones, try to understand if they correspond and if they belong to any community, or if any lonely wolf exists. 
+		</p>
+	</div>
+	<h2>Research protocol</h2>
+	<div class='texts'>
+		<p>
+			The analysis was taken following two approaches and comparing them. 
+		</p>
+		<h5>Local approach</h5>
+		<p>
+			This approach only considered people belonging to a community, to understand who, among the most connected users, emerges. 
+		</p>
+		<h5>Global approach</h5>
+		<p>
+			This approach considered the whole dataset to verify if the local rankings corresponded to the global ones.
+		</p>
+	</div>
+	<h2>Findings</h2>
+	<h2>Roles in the network</h2>
+		<div class='texts'>
+			<p>
+				There are three classes of users: the mostly inactive, the spreaders (those who mention other users), and the ones that are mostly mentinoed: the stars.
+			</p>
+		</div>
+		<h5>Distribution of incoming mentions</h5>
+		<svg id='viz_2' class='small_viz'></svg>
+		<h5>Distribution of outcoming mentions</h5>
+		<svg id='viz_3' class='small_viz'></svg>
+		<div class='texts'>
+			<p>
+				As we can expect, the majority of users fall in the first category: the casual users. Most of them were excluded from the analysis.
+				For what concerns the other two classes, it emerged that they don't often overlap: the cases at the limit of the distributions tend to primarly mention other users or to be cited by many people. 
+			</p>
+			<p>
+				This is not surprising since there exist accounts made for spreading specific contents made by and addressed to a precise target, in this case (data) journalists, activists, and designers. 
+			</p>
+		</div>
 </div>
 <div id='local_actors' class='section'>
-	<h2>Actors in the network (local view)</h2>
+	<h2>A local glance at the most important users</h2>
 	<div class='texts'>
 		<p>
-			It is useful to understand in what measure each user contributes to the Data Journalism community on Twitter. This section reveals the most active, the most influential, and the spreaders users. For the moment, the classification excludes the users outside the communities so that it is possible to discover eventual dominances inside them. 
+			t is useful to understand in what measure each user contributes to the Data Journalism community on Twitter. This subsection reveals the most active or influential users, and the spreaders. This classification follows the first approach, excluding the users outside the communities.
 		</p>
 		<p>
 			A profile was considered <strong>active</strong> if it produces a large amount of tweets, <strong>influential</strong> if many other users cite its work. It was named a <strong>spreader</strong> if it maily retweet other users' work.
 		</p>
 		<p>
-			About activness, two rankings were realised: one considering retweets as valid contributions, and the other excluding them because they do not contain original material.
-		</p>
-		<p>
-			Since a Tweeter action consists in the publication of an original (tweet) or of a third part (retweet) content, a user can be considered active also if they retweet a lot. For this reason, we excluded retweets in the count of mentions when looking for the spreaders and the influencers.
+			Two rankings were realised: one considering retweets, and the other excluding them, so prioritising original material. 
 		</p>
 	</div>
 	<h5>Activity ranking including retweets</h5>
@@ -200,7 +228,7 @@ layout: default
 			At a first glance, it seems more useful to look at the data without retweets. Here we can find that the 4 out of 10 users belong to <a href='#cluster_1' class='g_1'>cluster 1</a>. It is not so surprising, considering that it is primarly populated by big news agencies. 
 		</p>
 		<p>
-			<a href="https://twitter.com/gijn" target="blank">@gijn</a> can be considered the most active user, also considering the other plot: as we see, it retweeted only 22 times, much less than the 192 of <a href="https://twitter.com/pinadrag" target="blank">@pinadrag</a>. It is visible that these two users are significantly over the average number of #ddj tweets in 2020, around 2.5 (excluding the zero values).
+			<a href="https://twitter.com/gijn" target="blank">@gijn</a> can be considered the most active user, also considering the other plot: as we see, it retweeted only 22 times, much less than the 192 of <a href="https://twitter.com/pinadrag" target="blank">@pinadrag</a>. These two users are significantly over the average number of #ddj tweets in 2020, around 2.5 (excluding the zero values).
 		</p>
 	</div>
 	<h5>The mentioners</h5>
@@ -212,9 +240,10 @@ layout: default
 			This second analysis focuses on the level of interaction between the users (excluding retweets). The situation displayed by the plots shows <a href='#cluster_1' class='g_1'>cluster 1</a> as very present among the top 10 spreaders.
 		</p>
 		<p>
-			If <a href="https://twitter.com/pinadrag" target="blank">@pinadrag</a> disappears, <a href="https://twitter.com/gijn" target="blank">@gijn</a> continues to dominate the rankings, consolidating its role of authority in Data Journalism, at least on Twitter.
+			While <a href="https://twitter.com/pinadrag" target="blank">@pinadrag</a> disappears, <a href="https://twitter.com/gijn" target="blank">@gijn</a> continues to dominate the rankings, consolidating its role of authority in Data Journalism, at least on Twitter.
 			Also <a href="https://twitter.com/datajournalism" target="blank">@datajournalism</a>, the third most active user, confirms its position of importance becoming the second most mentioned in the network.
 		</p>
+		<span class="TODO">ARRIVED HERE</span>
 		<p>
 			Another aspect to notice is that <a href='#cluster_0' class='g_0'>cluster 0</a> receives a large amount of mentions. Given the nature of its composition it can be foreseen that these are principally interactions inside the cluster. A qualitative proof of that is the visual display of the community in the <a href='#viz_1'>network visualisation</a> at the beginning of the article. 
 		</p>
@@ -224,7 +253,7 @@ layout: default
 	<h2>A global glance at the most important users</h2>
 	<div class='texts'>
 		<p>
-			It is useful to compare the local placements (inside the network) with the global ones because some important actors not strongly belonging to a community could emerge.
+			Global placements (inside the network) are fundamental to see local rankings in perspective, because important actors not strongly socially connected could emerge.
 		</p>
 	</div>
 	<h5>Ranking including retweet activity</h5>
@@ -251,14 +280,17 @@ layout: default
 	<h5>The most mentioned</h5>
 	<svg id='viz_5' class='small_viz'></svg>
 	<div class='texts' id='reason_jornalismoDados'>
-		<p>A big anomaly was found: the two users at the top
-			of the ranks, <a href='https://twitter.com/EscolaDeDados' target='blank'>@EscolaDeDados</a> and @journalismoDados probably represent the same institution. The latter was deleted before 2021 in favor of <a href='https://twitter.com/EscolaDeDados' target='blank'>@EscolaDeDados</a>, which is part of <a href='#cluster_0' class='g_0'>cluster 0</a>.
+		<p>
+			An anomaly was found: the two users at the top of the ranks, @EscolaDeDados and @journalismoDados probably represented the same institution. The latter was deleted before March 2021 in favor of @EscolaDeDados (C0). This study, then, excluded @journalismoDados because it imbalanced the data without adding any contribution. In any case, it can be assumed that @EscolaDeDados has a quite important role, even if its first placement could be due to its strong relation with the twin account.
 		</p>
 		<p>
-			Since the distribution of the most mentioned users is more likely, it can be assumed that <a href='https://twitter.com/EscolaDeDados' target='blank'>@EscolaDeDados</a> is an important user, even if maybe not at the first position. 
+			Again, <a href='https://twitter.com/gijn' target='blank'>@gijn</a>, <a href='https://twitter.com/pinadrag' target='blank'>@pinadrag</a> and <a href='https://twitter.com/datajournalism' target='blank'>@datajournalism</a> ppear to be often mentioned, confirming the local observations.
 		</p>
+	</div>
+	<div class='texts'>
+		<h2>Conclusion</h2>
 		<p>
-			Again, <a href='https://twitter.com/gijn' target='blank'>@gijn</a>, <a href='https://twitter.com/pinadrag' target='blank'>@pinadrag</a> and <a href='https://twitter.com/datajournalism' target='blank'>@datajournalism</a> are well socially connected, confirming the local observations.
+			This analysis unveiled the presence of absolutely important users, like <a href='https://twitter.com/gijn' target='blank'>@gijn</a> and <a href='https://twitter.com/datajournalism' target='blank'>@datajournalism</a>, and uncovered that the most mentioned users, also in a global context, belong to a community. It also confirmed that the amount of tweets is not the only key of popularity: the global analysis of activeness shows many active users disappearing in the rankings of mentions; this suggests the importance for an individual to be part of a community, and at the same time the difficulty of small clusters to emerge in the Twitter environment.
 		</p>
 	</div>
 </div>
