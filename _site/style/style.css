@@ -45,6 +45,19 @@ svg {
 	height: 90vh;
 }
 
+svg.cluster_pic {
+	margin-top: 6px;
+	width: 300px;
+	height: 340px;
+}
+
+svg.cluster_pic_small {
+	margin-top: 6px;
+	width: 300px;
+	height: 200px;
+}
+
+
 svg.small_viz {
 	height: 220px;
 }
