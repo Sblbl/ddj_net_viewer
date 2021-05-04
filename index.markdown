@@ -262,6 +262,124 @@ layout: default
 		</p>
 	</div>
 </div>
-
-
-
+<h2>Analysis #02</h2>
+<h2>The geography of voices (who is missing)</h2>
+<div class='section'>
+	<h2>Description</h2>
+	<div class='texts'>
+		<p>
+			The analysis explores the geographical distribution of the data journalism community. In addition, it will analyse the factors that may influence the formation of communities on Twitter in Europe, the US, Nigeria and Brazil, and the reasons why some regions are missing from this space.
+		</p>
+	</div>
+	<h2>Question</h2>
+	<div class='texts'>
+		<p>
+			What is the geography of these voices, and who is missing from this space.
+		</p>
+	</div>
+	<h2>Research protocol</h2>
+	<div class='texts'>
+		<p></p>
+	</div>
+	<h2>Findings</h2>
+	<h2>The main countries in the communities</h2>
+	<h5>Overview</h5>
+	<div class='texts'>
+		<p>
+			The accounts located in the European countries and in the US constitute the majority of the 197 users in the communities and have a relatively close connection with users inside and outside their cluster. Also, the most mentioned ones and the top mentioners are mainly from these regions, suggesting the importance of European and American organizations in the data journalism Twitter environment.
+		</p>
+		<p>
+			In parallel, the accounts from other parts of the world, like Nigeria and Brazil, tend to interact within their cluster, except for some local organisations being mentioned by international accounts. 
+		</p>
+		<p>
+			The absence of voices from most of the countries on other continents may suggest that these countries have not built up a Data Journalism system of international relevance. 
+		</p>
+	</div>
+	<div class='subsection'>
+		<div class='texts'>
+			<h5>Brazil</h5>
+			<p>
+				In recent years, the availability of open data in Brazil significantly increased. Since the introduction of the Freedom of Information law in 2012, the country has been recognized as a leader in disclosing government data (Faleiros, 2012), and its government demonstrated concern over the improvement of information disclosure and transparency, to facilitate the public scrutiny and encourage democratic participation. 
+			</p>
+			<p>
+				Data journalism saw its rise since the Access to Information Act came into force in 2012. Journalists gather at conferences and regular events where they can share information and help each other learn new methods (Kunova, 2018). The School of Data Brazil (@EscoladeDados in C0) found the main Data Journalism conference in Brazil, supporting community meet-ups and training more than 6,000 people.
+			</p>
+		</div>
+	</div>
+	<div class='subsection'>
+		<div class='texts'>
+			<h5>Nigeria</h5>
+			<p>
+				C5 is characterised by Nigerian nonprofit investigative news agencies, data journalism organizations and civic tech organizations. These groups have developed a network and work collaboratively to improve journalism. In Nigeria, corruption has permeated almost every sector of the economy, and has been a contributing factor to the current dwindling nature of the country’s economy. Therefore, the fight against corruption is one of the top priorities of the Government and the whole society, and investigative journalism plays a crucial role. Many organizations have trained journalists to expose bad-habits and combat corruption. However, despite tremendous improvements in computer and internet technology, many reporters still ‘struggle to work at this crucial intersection of journalism and numbers’ (Adebajo,2020)
+			</p>
+			<p>
+				In order to fill the vacuum of data-driven conversations in some underreported sectors in Nigeria, Joshua Olufemi (@jayangbayi, C5) founded Dataphyte (@dataphyte, C5), a startup focusing on data-driven storytelling (Adebajo,2020). Olufemi worked for Premium Times Centre for Investigative Journalism (@ptcij) and has experience in journalism. 
+				Although Dataphyte shares some similarities with BudgIT (@BudgITng), it is the first organization in Nigeria which treats data journalism as the core of its work and dedicates to combine journalism with open data.
+			</p>
+		</div>
+	</div>
+	<div class='subsection'>
+		<div class='texts'>
+			<h5>Europe and the United States</h5>
+			<p>
+				The world has witnessed a domination of western model in media education and practice. This hegemony on the mass media was long seen by the Western world, especially Europe and the United States, where complete media systems have been built. The Western models of teaching and practicing journalism are also imported to other regions in the world. For example, Dataphyte was inspired by FiveThirtyEight (@FiveThirtyEight), a US-based establishment that uses statistical analysis to tell the stories (Adebajo,2020), while J-Forum, an event to develop Japanese journalists’ skills and knowledge of investigative reporting, was prompted by organizations like Investigative Reporters and Editors (@IRE_NICAR) in the US and the Global Investigative Journalism Network (@gijn) (Alecci, 2020).
+			</p>
+			<p>
+				Some organizations located in Europe and the US not only focus on regional affairs, but also look to matters of global reach. The Global Investigative Journalism Conference held by GIJN is the world’s largest international gathering of investigative reporters. By focusing on skills and training, the conferences help to spread state-of-the-art data journalism and promote cross-border collaboration around the world. Accounts like @gijn and @datajournalism also play an important role in connecting journalists and organizations around the world by frequently mentioning and being mentioned by these accounts.  
+			</p>
+		</div>
+	</div>
+	<div class='texts'>
+		<h2>Missing voices</h2>
+		<p>
+			While major western media such as the BBC and New York Times build their Data Journalism teams with cutting-edge methods, most of the  Asian accounts are either posting content that has low connection with data journalism or limited in number. Japan and China are taken as two examples to illustrate why some countries may be considered the missing voices in this research. 
+		</p>
+	</div>
+	<div class='subsection'>
+		<div class='texts'>
+			<h5>Japan</h5>
+			<p>
+				As one of the most frequently used social media platforms in Japan (Bigbeat, 2020), Twitter is supposed to be the seedbed of all kinds of interactions, including data journalism. However, Japanese accounts seemed to be uninfluential. The reasons behind this are fourfold: terminological rift, talent cultivation difference, digitalisation lag, and limitation in information freedom. 
+			</p>
+			<p>
+				In the researched dataset, nearly 78% of the Japanese tweets are about the promotion and users’ discussion of Rekordbox, a disc jockey software. The abbreviations of disc jockey (DJ) and Rekordbox’s new product DDJ-400 and share the same hashtags, but with different meanings.  Aside from this misinterpretation, the idea of journalism in Japan is different from Western countries. The Japanese practitioners who are defined as journalists in Western countries usually consider themselves Kisha (reporter) or employed (Hayashi and Kopper, 2014, p1144).
+			</p>
+			<p>
+				A Japanese recently graduated student from Kanagawa University was interviewed to better understand the context. He pointed out that students aiming to be journalists would choose majors in Advertising. Despite their impressive educational backgrounds, elite journalists in Japan mainly gain their skills from practise, because of the lacking disciplinary learning experiences (Hayashi and Kopper, 2014, p1140-1141). Moreover, the japanese apprenticeship tradition makes it hard to grasp digital tools.
+			</p>
+			<p>
+				Yagi (2020) stated that compared with Asian countries like China, South Korea and Singapore, the status quo of Japan’s digital economy is left behind, which leads to the lack of awareness and demand for data-oriented products. As a result, Japan has not enough drive to build journalism tools, and lacks  professionals who can handle digitalisation.
+			</p>
+			<p>
+				Regardless of the law’s requirements on transparency, the majority officials and politicians don’t hand down information to the public (Hayashi and Kopper, 2014, p1144). They prefer organising conferences and interviews to practitioners within the Kisha-kurabu system, that is,  an arrangement by which news-gathering activities are administered by the editorial offices of the member companies of the NSK (Hayashi and Kopper, 2014, p1143), a prominent national journalism award in Japan. 
+			</p>
+			<p>
+				The concept of public information seems to be absent in Japan, its Freedom of information Act failed to facilitate journalists to access statistics. Japan’s recent State Secrets Law also imposed a negative impact on press freedom due to its blur of ‘personal information’ and ‘privacy’ (Alecci, 2020). Thus, limited access to governmental and public information also contributes to data journalism’s low profile in Japan.
+			</p>
+		</div>
+	</div>
+	<div class='subsection'>
+		<div class='texts'>
+			<h5>China</h5>
+			<p>
+				Most of the few Chinese tweets detected in the dataset encourage people to learn data journalism skills and tools. It is safe to say that this term has a shared meaning in English and Chinese context.
+			</p>
+			<p>
+				However, for Chinese users, Twitter is not as accessible as other local microblog services such as Sina Weibo. Concomitantly, the data journalism environment is beginning to take shape in Sina Weibo owing to professional accounts’ emerging, among which include Pictorial Digital Room with 774 thousand followers.
+				<span class="TODO">TODO</span>
+			</p>
+			<p>
+				By consequence, Twitter may not be the only suitable research environment for data journalism since it is not the most prevalent social media platform in some countries other than Europe and America. Hallin and Mancini (2012, p.280) stated that detailed empirical analysis of particular media systems in their own historical and structural context is essential to conceptualising them. To explore data journalism’s development in nations whose media landscapes differentiate from the Euro-Atlantic media system, applying tailored research objects and methods provides more flexibility and authenticity.  In general, data journalism discussion clusters remain a rather exclusive niche group that requires educational, financial, and digital resources, leading to the situation that they scatter unevenly around the world.
+			</p>
+		</div>
+	</div>
+</div>
+<h2>Conclusions</h2>
+<div class='section'>
+	<div class='texts'>
+		<p></p>
+		<p></p>
+		<p></p>
+		<span class="TODO">TODO</span>
+	</div>
+</div>
