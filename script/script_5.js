@@ -28,8 +28,8 @@ document.addEventListener('DOMContentLoaded', function(event) {
 	
 	bar_active(with_rt, '#viz_8')
 	bar_active(no_rt, '#viz_9')
-
-	$(window).resize( function(){
+	
+	$(window).resize(function() {
 		$('#viz_8').empty()
 		$('#viz_9').empty()
 		bar_active(with_rt, '#viz_8')
