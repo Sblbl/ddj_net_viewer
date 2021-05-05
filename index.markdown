@@ -6,7 +6,7 @@ layout: default
 <div id='preface' class='section'>
 	<h2>Acknowledgements</h2>
 	<p>
-		This research was realised by Marta Fioravanti, Tong Zhang, Weixuan Yang for the Introduction to Data Journalism module at King's College London, MA in Digital Humanities.
+		This research was realised by Marta Fioravanti, Tong Zhang, Weixuan Yang for the Data Journalism module at King's College London, MA in Digital Humanities.
 	</p>
 	<p>
 		The project folder can be accessed <a href='https://drive.google.com/drive/folders/1WXYNyHFySH_r_8CM6M6sdT0XfeC4CP9Q?usp=sharing'>here</a>
@@ -151,13 +151,13 @@ layout: default
 			</tr>
 		</table>
 		<p>
-			Cluster 0 witnesses a high level of diversity regarding accounts' nationality, active region and identity. It involves users from Europe (about 63% Germany), North America (90% US), Central and South America (nearly 92% Brazil), and some from Asia and Africa. Nearly all accounts are mentioned by the Global Investigative Journalism Network (<a href='https://twitter.com/gijn' target='blank'>@gijn</a>). As the most active account, <a href='https://twitter.com/gijn' target='blank'>@gijn</a> frequently mentions other accounts in <a href='#cluster_0' class='g_0'>cluster 0</a>, partly because it publishes daily lists of top 10 ddj works. 
+			Cluster 0 witnesses a high level of diversity regarding accounts' nationality, active region and identity. It involves users from Europe (about 63% Germany), North America (90% US), Central and South America (nearly 92% Brazil), and some from Asia and Africa. Nearly all accounts are mentioned by the Global Investigative Journalism Network (<a href='https://twitter.com/gijn' class='g_0' target='blank'>@gijn</a>). As the most active account, <a href='https://twitter.com/gijn' class='g_0' target='blank'>@gijn</a> frequently mentions other accounts in <a href='#cluster_0' class='g_0'>cluster 0</a>, partly because it publishes daily lists of top 10 ddj works. 
 		</p>
 		<p>
-			Accounts based in Central and South America make up a large proportion, one from Mexico (<a href='https://twitter.com/EI_UniversaI_Mx' target='blank'>@EI_UniversaI_Mx</a>), one from El Salvador (<a href='https://twitter.com/elsalvadorcom' target='blank'>@elsalvadorcom</a>) and twenty-two from Brazil. With Brazilian actors taking up 32% of the whole cluster, it is not surprising to find that this clique consists of journalists working for media organisations like <a href='https://twitter.com/Metropoles' target='blank'>@Metropoles</a>, <a href='https://twitter.com/Fiquem_Sabendo' target='blank'>@Fiquem_Sabendo</a> (both members of <a href='#cluster_0' class='g_0'>cluster 0</a>) and <a href='https://twitter.com/G1' target='blank'>@G1</a> (<a href='#cluster_78' class='g_8'>cluster 8</a>). Brazilian accounts are predominant in quantity and involve data journalists, data aggregators, news media, investigative journalism organisations, and non-governmental organisations. 
+			Accounts based in Central and South America make up a large proportion, one from Mexico (<a href='https://twitter.com/EI_UniversaI_Mx' class='g_0' target='blank'>@El_Universal_Mx</a>), one from El Salvador (<a href='https://twitter.com/elsalvadorcom' class='g_0' target='blank'>@elsalvadorcom</a>) and twenty-two from Brazil. With Brazilian actors taking up 32% of the whole cluster, it is not surprising to find that this clique consists of journalists working for media organisations like <a href='https://twitter.com/Metropoles' class='g_0' target='blank'>@Metropoles</a>, <a href='https://twitter.com/_fiquemsabendo' class='g_0' target='blank'>@_fiquemsabendo</a> (both members of <a href='#cluster_0' class='g_0'>cluster 0</a>) and <a href='https://twitter.com/G1' class='g_8' target='blank'>@G1</a> (<a href='#cluster_78' class='g_8'>cluster 8</a>). Brazilian accounts are predominant in quantity and involve data journalists, data aggregators, news media, investigative journalism organisations, and non-governmental organisations. 
 		</p>
 		<p>
-			Germany, the most frequent European country in <a href='#cluster_0' class='g_0'>cluster 0</a>, is represented by press professionals, like the South German Newspaper (<a href='https://twitter.com/SZ' target='blank'>@SZ</a>), The Daily Mirror (<a href='https://twitter.com/Tagesspiegel' target='blank'>@Tagesspiegel</a>) and their journalists, whose influence sometimes reaches a global range. Their professional labels (data journalist, data visualisation personnel, programming journalist) demonstrates a clear division of work and a mature data journalism ecosystem. 
+			Germany, the most frequent European country in <a href='#cluster_0' class='g_0'>cluster 0</a>, is represented by press professionals, like the South German Newspaper (<a href='https://twitter.com/SZ' class='g_0' target='blank'>@SZ</a>), The Daily Mirror (<a href='https://twitter.com/Tagesspiegel' class='g_0' target='blank'>@Tagesspiegel</a>) and their journalists, whose influence sometimes reaches a global range. Their professional labels (data journalist, data visualisation personnel, programming journalist) demonstrates a clear division of work and a mature data journalism ecosystem. 
 			Actors in North America (the US and Canada)  also have global  influence.
 		</p>
 	</div>
@@ -232,7 +232,7 @@ layout: default
 			</tr>
 		</table>
 		<p>
-			Cluster 1 mainly belongs to big news organizations and their data teams, which seldom mention others within this community, or any other accounts outside it. The reason for this grouping is probably that users  are either mentioned by <a href='https://twitter.com/gijnafrica' target='blank'>@gijnafrica</a> or<a href='https://twitter.com/WarningGraphicC' target='blank'>@WarningGraphicC</a>@WarningGraphicC (the former shares investigative journalism, the latter data journalism and visualization references).
+			Cluster 1 mainly belongs to big news organizations and their data teams, which seldom mention others within this community, or any other accounts outside it. The reason for this grouping is probably that users  are either mentioned by <a href='https://twitter.com/gijnafrica' class='g_1' target='blank'>@gijnafrica</a> or<a href='https://twitter.com/WarningGraphicC' class='g_1' target='blank'>@WarningGraphicC</a> (the former shares investigative journalism, the latter data journalism and visualization references).
 		</p>
 	</div>
 	<div id='cluster_2' class='subsection'>
@@ -302,7 +302,7 @@ layout: default
 			</tr>
 		</table>
 		<p>
-			Cluster 2 collects non-profit journalism organizations and accounts linked to the Sigma Awards. Most of these accounts are linked with each other and belong to the Sigma Awards management team or are media partners (such as <a href='https://twitter.com/IJNet' target='blank'>@IJNet</a> and <a href='https://twitter.com/IRE' target='blank'>@IRE</a>). This indicates that the organisation has a regional and international role.
+			Cluster 2 collects non-profit journalism organizations and accounts linked to the Sigma Awards. Most of these accounts are linked with each other and belong to the Sigma Awards management team or are media partners (such as <a href='https://twitter.com/IJNet' class='g_2' target='blank'>@IJNet</a> and <a href='https://twitter.com/IRE_NICAR' class='g_2' target='blank'>@IRE_NICAR</a>). This indicates that the organisation has a regional and international role.
 		</p>
 	</div>
 	<div id='cluster_3' class='subsection'>
@@ -373,7 +373,7 @@ layout: default
 			</tr>
 		</table>
 		<p>
-			Cluster 3 revolves around <a href='https://twitter.com/datajournalism' target='blank'>@datajournalism</a>
+			Cluster 3 revolves around <a href='https://twitter.com/datajournalism' class='g_3' target='blank'>@datajournalism</a>
 			, which mentions almost every account in the cluster. These accounts are mainly regional media organizations and data journalists around the world. Among them, six are contributors of datajournalism.com.
 		</p>
 	</div>
@@ -445,7 +445,7 @@ layout: default
 			</tr>
 		</table>
 		<p>
-			Cluster 4 involves British data journalists’ accounts, which can be divided into BBC-related and BCU-related. The former used to or currently work for BBC; the latter either studied or teach at theData, Multiplatform and Mobile Journalism MA in Birmingham City University. These two groups of accounts are merged into one cluster because <a href='https://twitter.com/paulbradshaw' target='blank'>@paulbradshaw</a> has interaction with both BBC-related accounts and BCU-related accounts. He has worked with the BBC England data unit since 2015, and leads the MA at Birmingham City University.
+			Cluster 4 involves British data journalists’ accounts, which can be divided into BBC-related and BCU-related. The former used to or currently work for BBC; the latter either studied or teach at theData, Multiplatform and Mobile Journalism MA in Birmingham City University. These two groups of accounts are merged into one cluster because <a href='https://twitter.com/paulbradshaw' class='g_4' target='blank'>@paulbradshaw</a> has interaction with both BBC-related accounts and BCU-related accounts. He has worked with the BBC England data unit since 2015, and leads the MA at Birmingham City University.
 		</p>
 	</div>
 	<div id='cluster_5' class='subsection'>
@@ -516,7 +516,7 @@ layout: default
 			</tr>
 		</table>
 		<p>
-			80% of this cluster's users are from Nigeria. These accounts have shown variety in category: there are organisations interested in civic topics, research and international development, non-governmental associations, news agencies, but also journalists and entrepreneurs who own an online study website of data methods (<a href='https://twitter.com/Dataphyte' target='blank'>@Dataphyte</a>). 
+			80% of this cluster's users are from Nigeria. These accounts have shown variety in category: there are organisations interested in civic topics, research and international development, non-governmental associations, news agencies, but also journalists and entrepreneurs who own an online study website of data methods (<a href='https://twitter.com/Dataphyte' class='g_5' target='blank'>@Dataphyte</a>). 
 		</p>
 		<p> 
 			90% of them aim to promote the transparency of the Nigerian government and the financial progress of Africa.
@@ -555,10 +555,10 @@ layout: default
 			</tr>
 		</table>
 		<p>
-			All of this cluster's accounts originate in Western and Northern Europe (Belgium, Netherlands, France and Denmark). About 44% of them are organisations, including the EU-funded data portal and NPO focusing on journalism. Nearly 46% of them are personal accounts either of journalism practitioners or academics. The former, like <a href='https://twitter.com/EmmaQvirinHolst' target='blank'>@EmmaQvirinHolst</a> and <a href='https://twitter.com/HecquetK' target='blank'>@HecquetK</a>, work for Altinget.dk, a party-politically independent Danish online newspaper. The latter, like <a href='https://twitter.com/claesdevreese' target='blank'>@claesdevreese</a> and <a href='https://twitter.com/KGattermann' target='blank'>@KGattermann</a>, are researchers from University of Amsterdam specialised in political communication. 
+			All of this cluster's accounts originate in Western and Northern Europe (Belgium, Netherlands, France and Denmark). About 44% of them are organisations, including the EU-funded data portal and NPO focusing on journalism. Nearly 46% of them are personal accounts either of journalism practitioners or academics. The former, like <a href='https://twitter.com/EmmaQvirinHolst' class='g_6' target='blank'>@EmmaQvirinHolst</a> and <a href='https://twitter.com/HecquetK' class='g_6' target='blank'>@HecquetK</a>, work for Altinget.dk, a party-politically independent Danish online newspaper. The latter, like <a href='https://twitter.com/claesdevreese' class='g_6' target='blank'>@claesdevreese</a> and <a href='https://twitter.com/KGattermann' class='g_6' target='blank'>@KGattermann</a>, are researchers from University of Amsterdam specialised in political communication. 
 		</p>
 		<p> 
-			The most active accounts of this cluster are EU <a href='https://twitter.com/EU_opendata' target='blank'>@EU_opendata</a>, an event to be held in 23-25th November 2021, and a student assistant editor <a href='https://twitter.com/MarieSchoenning' target='blank'>@MarieSchoenning</a> of UvA Amsterdam, an intellectual hub of the Netherlands.
+			The most active accounts of this cluster are EU <a href='https://twitter.com/EU_opendata' class='g_6' target='blank'>@EU_opendata</a>, an event to be held in 23-25th November 2021, and a student assistant editor <a href='https://twitter.com/MarieSchoenning' class='g_6' target='blank'>@MarieSchoenning</a> of UvA Amsterdam, an intellectual hub of the Netherlands.
 		</p>
 	</div>
 	<div id='cluster_78' class='subsection'>
@@ -632,10 +632,10 @@ layout: default
 			hese clusters are located in Brazil, and talk about politics, education, health, security issues in Brazil and sometimes in Latin America. They are composed by journalism professionals.  
 		</p>
 		<p>
-			Cluster 7 is a Brazilian journalists’ group, with one exception: the Center for Politics and Economics in the Public Sector Studies (<a href='https://twitter.com/cepesp' target='blank'>@cepesp</a>). <a href='https://twitter.com/gabrielacaesar' target='blank'>@gabrielacaesar</a> (Cluster 7) is a journalist working for <a href='https://twitter.com/G1' target='blank'>@G1</a>, a global news portal based in Brazil, active member of Cluster 8.
+			Cluster 7 is a Brazilian journalists’ group, with one exception: the Center for Politics and Economics in the Public Sector Studies (<a href='https://twitter.com/cepesp' class='g_7' target='blank'>@cepesp</a>). <a href='https://twitter.com/gabrielacaesar' class='g_7' target='blank'>@gabrielacaesar</a> is a journalist working for <a href='https://twitter.com/g1' class='g_8' target='blank'>@g1</a>, a global news portal based in Brazil, active member of Cluster 8.
 		</p>
 		<p>
-			As the only personal account in Cluster 8, <a href='https://twitter.com/giubianconi' target='blank'>@giubianconi</a>) is a data journalist who mainly covers gender, race and politics in Latin America, and seems to connect the cluster. Likewise, Cluster 7 is linked through <a href='https://twitter.com/ge_brandino' target='blank'>@ge_brandino</a>, the journalist who involves data reporting in her work.
+			As the only personal account in Cluster 8, <a href='https://twitter.com/giubianconi' class='g_8' target='blank'>@giubianconi</a>) is a data journalist who mainly covers gender, race and politics in Latin America, and seems to connect the cluster. Likewise, Cluster 7 is linked through <a href='https://twitter.com/ge_brandino' class='g_7' target='blank'>@ge_brandino</a>, the journalist who involves data reporting in her work.
 		</p>
 	</div>
 	<div id='cluster_9' class='subsection'>
@@ -671,10 +671,10 @@ layout: default
 			</tr>
 		</table>
 		<p>
-			Three organisation accounts led by western countries, radiating the whole world. It includes UN World Data Forum (<a href='https://twitter.com/UNDataForum' target='blank'>@UNDataForum</a>) an annual event funded by The United Nations, which gathers data experts and users to spur data innovation, and builds a pathway to better data for sustainable development.
+			Three organisation accounts led by western countries, radiating the whole world. It includes UN World Data Forum (<a href='https://twitter.com/UNDataForum' class='g_9' target='blank'>@UNDataForum</a>) an annual event funded by The United Nations, which gathers data experts and users to spur data innovation, and builds a pathway to better data for sustainable development.
 		</p>
 		<p> 
-			The other two accounts, Earth Journalism Network (<a href='https://twitter.com/earthjournalism' target='blank'>@earthjournalism</a>) and Resources Watch (<a href='https://twitter.com/resource_watch' target='blank'>@resource_watch</a>) are both initiated in the US, empowering journalists and data visualisation experts to explore global sustainable development by addressing environmental topics.
+			The other two accounts, Earth Journalism Network (<a href='https://twitter.com/earthjournalism' class='g_9' target='blank'>@earthjournalism</a>) and Resources Watch (<a href='https://twitter.com/resource_watch' class='g_9' target='blank'>@resource_watch</a>) are both initiated in the US, empowering journalists and data visualisation experts to explore global sustainable development by addressing environmental topics.
 		</p>
 	</div>
 </div>
@@ -750,7 +750,7 @@ layout: default
 			At a first glance, it seems more useful to look at the data without retweets. Here we can find that the 4 out of 10 users belong to <a href='#cluster_1' class='g_1'>cluster 1</a>. It is not so surprising, considering that it is primarly populated by big news agencies. 
 		</p>
 		<p>
-			<a href="https://twitter.com/gijn" target="blank">@gijn</a> can be considered the most active user, also considering the other plot: as we see, it retweeted only 22 times, much less than the 192 of <a href="https://twitter.com/pinadrag" target="blank">@pinadrag</a>. These two users are significantly over the average number of #ddj tweets in 2020, around 2.5 (excluding the zero values).
+			<a href="https://twitter.com/gijn" class='g_0' target="blank">@gijn</a> can be considered the most active user, also considering the other plot: as we see, it retweeted only 22 times, much less than the 192 of <a href="https://twitter.com/pinadrag" class='g_1' target="blank">@pinadrag</a>. These two users are significantly over the average number of #ddj tweets in 2020, around 2.5 (excluding the zero values).
 		</p>
 	</div>
 	<h5>The mentioners</h5>
@@ -762,8 +762,8 @@ layout: default
 			This second analysis focuses on the level of interaction between the users (excluding retweets). The situation displayed by the plots shows <a href='#cluster_1' class='g_1'>cluster 1</a> as very present among the top 10 spreaders.
 		</p>
 		<p>
-			While <a href="https://twitter.com/pinadrag" target="blank">@pinadrag</a> disappears, <a href="https://twitter.com/gijn" target="blank">@gijn</a> continues to dominate the rankings, consolidating its role of authority in Data Journalism, at least on Twitter.
-			Also <a href="https://twitter.com/datajournalism" target="blank">@datajournalism</a>, the third most active user, confirms its position of importance becoming the second most mentioned in the network.
+			While <a href="https://twitter.com/pinadrag" class='g_1' target="blank">@pinadrag</a> disappears, <a href="https://twitter.com/gijn" class='g_0' target="blank">@gijn</a> continues to dominate the rankings, consolidating its role of authority in Data Journalism, at least on Twitter.
+			Also <a href="https://twitter.com/datajournalism" class='g_3' target="blank">@datajournalism</a>, the third most active user, confirms its position of importance becoming the second most mentioned in the network.
 		</p>
 		<p>
 			Another aspect to notice is that <a href='#cluster_0' class='g_0'>cluster 0</a> receives a large amount of mentions. Given the nature of its composition it can be foreseen that these are principally interactions inside the cluster. A qualitative proof of that is the visual display of the community in the <a href='#viz_1'>network visualisation</a> at the beginning of the article. 
@@ -788,7 +788,7 @@ layout: default
 	<svg id='viz_7' class='small_viz'></svg>
 	<div class='texts'>
 		<p>
-			The global plots show the presence of a consistent number of independent users at the top of the placement. These could suggest the presence of less represented communities, like the Russian one (suggested by <a href='https://twitter.com/gijnRu' target='blank'>@gijnRu</a>) and the Turkish one (suggested by <a href='https://twitter.com/DagmedyaVeri' target='blank'>@DagmedyaVeri</a>).
+			The global plots show the presence of a consistent number of independent users at the top of the placement. These could suggest the presence of less represented communities, like the Russian one (suggested by <a href='https://twitter.com/gijnRu' class='no_g' target='blank'>@gijnRu</a>) and the Turkish one (suggested by <a href='https://twitter.com/DagmedyaVeri' class='no_g' target='blank'>@DagmedyaVeri</a>).
 		</p>
 	</div>
 	<h5>The mentioners</h5>
@@ -802,16 +802,16 @@ layout: default
 	<svg id='viz_5' class='small_viz'></svg>
 	<div class='texts' id='reason_jornalismoDados'>
 		<p>
-			An anomaly was found: the two users at the top of the ranks, <a href='https://twitter.com/EscolaDeDados' target='blank'>@EscolaDeDados</a> and @journalismoDados probably represented the same institution. The latter was deleted before March 2021 in favor of <a href='https://twitter.com/EscolaDeDados' target='blank'>@EscolaDeDados</a> (<a href='#cluster_0' class='g_0'>cluster 0</a>). This study, then, excluded @journalismoDados because it imbalanced the data without adding any contribution. In any case, it can be assumed that <a href='https://twitter.com/EscolaDeDados' target='blank'>@EscolaDeDados</a> has a quite important role, even if its first placement could be due to its strong relation with the twin account.
+			An anomaly was found: the two users at the top of the ranks, <a href='https://twitter.com/EscolaDeDados' class='g_0' target='blank'>@EscolaDeDados</a> and @journalismoDados probably represented the same institution. The latter was deleted before March 2021 in favor of <a href='https://twitter.com/EscolaDeDados' class='g_0' target='blank'>@EscolaDeDados</a> (<a href='#cluster_0' class='g_0'>cluster 0</a>). This study, then, excluded @journalismoDados because it imbalanced the data without adding any contribution. In any case, it can be assumed that <a href='https://twitter.com/EscolaDeDados' class='g_0' target='blank'>@EscolaDeDados</a> has a quite important role, even if its first placement could be due to its strong relation with the twin account.
 		</p>
 		<p>
-			Again, <a href='https://twitter.com/gijn' target='blank'>@gijn</a>, <a href='https://twitter.com/pinadrag' target='blank'>@pinadrag</a> and <a href='https://twitter.com/datajournalism' target='blank'>@datajournalism</a> ppear to be often mentioned, confirming the local observations.
+			Again, <a href='https://twitter.com/gijn' class='g_0' target='blank'>@gijn</a>, <a href='https://twitter.com/pinadrag' class='g_1' target='blank'>@pinadrag</a> and <a href='https://twitter.com/datajournalism' class='g_3' target='blank'>@datajournalism</a> ppear to be often mentioned, confirming the local observations.
 		</p>
 	</div>
 	<div class='texts'>
 		<h2>Conclusion</h2>
 		<p>
-			This analysis unveiled the presence of absolutely important users, like <a href='https://twitter.com/gijn' target='blank'>@gijn</a> and <a href='https://twitter.com/datajournalism' target='blank'>@datajournalism</a>, and uncovered that the most mentioned users, also in a global context, belong to a community. It also confirmed that the amount of tweets is not the only key of popularity: the global analysis of activeness shows many active users disappearing in the rankings of mentions; this suggests the importance for an individual to be part of a community, and at the same time the difficulty of small clusters to emerge in the Twitter environment.
+			This analysis unveiled the presence of absolutely important users, like <a href='https://twitter.com/gijn' class='g_0' target='blank'>@gijn</a> and <a href='https://twitter.com/datajournalism' class='g_3' target='blank'>@datajournalism</a>, and uncovered that the most mentioned users, also in a global context, belong to a community. It also confirmed that the amount of tweets is not the only key of popularity: the global analysis of activeness shows many active users disappearing in the rankings of mentions; this suggests the importance for an individual to be part of a community, and at the same time the difficulty of small clusters to emerge in the Twitter environment.
 		</p>
 	</div>
 </div>
@@ -855,7 +855,7 @@ layout: default
 				In recent years, the availability of open data in Brazil significantly increased. Since the introduction of the Freedom of Information law in 2012, the country has been recognized as a leader in disclosing government data (Faleiros, 2012), and its government demonstrated concern over the improvement of information disclosure and transparency, to facilitate the public scrutiny and encourage democratic participation. 
 			</p>
 			<p>
-				Data journalism saw its rise since the Access to Information Act came into force in 2012. Journalists gather at conferences and regular events where they can share information and help each other learn new methods (Kunova, 2018). The School of Data Brazil (<a href='https://twitter.com/EscolaDeDados' target='blank'>@EscolaDeDados</a> in <a href='#cluster_0' class='g_0'>cluster 0</a>) found the main Data Journalism conference in Brazil, supporting community meet-ups and training more than 6,000 people.
+				Data journalism saw its rise since the Access to Information Act came into force in 2012. Journalists gather at conferences and regular events where they can share information and help each other learn new methods (Kunova, 2018). The School of Data Brazil (<a href='https://twitter.com/EscolaDeDados' class='g_0' target='blank'>@EscolaDeDados</a> in <a href='#cluster_0' class='g_0'>cluster 0</a>) found the main Data Journalism conference in Brazil, supporting community meet-ups and training more than 6,000 people.
 			</p>
 		</div>
 	</div>
@@ -866,8 +866,8 @@ layout: default
 				<a href='#cluster_5' class='g_5'>cluster 5</a> is characterised by Nigerian nonprofit investigative news agencies, data journalism organizations and civic tech organizations. These groups have developed a network and work collaboratively to improve journalism. In Nigeria, corruption has permeated almost every sector of the economy, and has been a contributing factor to the current dwindling nature of the country’s economy. Therefore, the fight against corruption is one of the top priorities of the Government and the whole society, and investigative journalism plays a crucial role. Many organizations have trained journalists to expose bad-habits and combat corruption. However, despite tremendous improvements in computer and internet technology, many reporters still ‘struggle to work at this crucial intersection of journalism and numbers’ (Adebajo,2020)
 			</p>
 			<p>
-				In order to fill the vacuum of data-driven conversations in some underreported sectors in Nigeria, Joshua Olufemi (<a href='https://twitter.com/jayangbayi' target='blank'>@jayangbayi</a>, <a href='#cluster_5' class='g_5'>cluster 5</a>) founded Dataphyte (<a href='https://twitter.com/Dataphyte' target='blank'>@Dataphyte</a>, <a href='#cluster_5' class='g_5'>cluster 5</a>), a startup focusing on data-driven storytelling (Adebajo,2020). Olufemi worked for Premium Times Centre for Investigative Journalism (<a href='https://twitter.com/ptcij' target='blank'>@ptcij</a>) and has experience in journalism. 
-				Although Dataphyte shares some similarities with BudgIT (<a href='https://twitter.com/BudgITng' target='blank'>@BudgITng</a>), it is the first organization in Nigeria which treats data journalism as the core of its work and dedicates to combine journalism with open data.
+				In order to fill the vacuum of data-driven conversations in some underreported sectors in Nigeria, Joshua Olufemi (<a href='https://twitter.com/jayangbayi' class='g_5' target='blank'>@jayangbayi</a>, <a href='#cluster_5' class='g_5'>cluster 5</a>) founded <a href='https://twitter.com/Dataphyte' class='g_5' target='blank'>@Dataphyte</a>, a startup focusing on data-driven storytelling (Adebajo,2020). Olufemi worked for Premium Times Centre for Investigative Journalism (<a href='https://twitter.com/ptcij' class='g_5' target='blank'>@ptcij</a>) and has experience in journalism. 
+				Although Dataphyte shares some similarities with BudgIT (<a href='https://twitter.com/BudgITng' class='g_5' target='blank'>@BudgITng</a>), it is the first organization in Nigeria which treats data journalism as the core of its work and dedicates to combine journalism with open data.
 			</p>
 		</div>
 	</div>
@@ -875,10 +875,10 @@ layout: default
 		<div class='texts'>
 			<h5>Europe and the United States</h5>
 			<p>
-				The world has witnessed a domination of western model in media education and practice. This hegemony on the mass media was long seen by the Western world, especially Europe and the United States, where complete media systems have been built. The Western models of teaching and practicing journalism are also imported to other regions in the world. For example, Dataphyte was inspired by FiveThirtyEight (<a href='https://twitter.com/FiveThirtyEight' target='blank'>@FiveThirtyEight</a>), a US-based establishment that uses statistical analysis to tell the stories (Adebajo,2020), while J-Forum, an event to develop Japanese journalists’ skills and knowledge of investigative reporting, was prompted by organizations like Investigative Reporters and Editors (<a href='https://twitter.com/IRE_NICAR' target='blank'>@IRE_NICAR</a>) in the US and the Global Investigative Journalism Network (<a href='https://twitter.com/gijn' target='blank'>@gijn</a>) (Alecci, 2020).
+				The world has witnessed a domination of western model in media education and practice. This hegemony on the mass media was long seen by the Western world, especially Europe and the United States, where complete media systems have been built. The Western models of teaching and practicing journalism are also imported to other regions in the world. For example, Dataphyte was inspired by FiveThirtyEight (<a href='https://twitter.com/FiveThirtyEight' class='g_1' target='blank'>@FiveThirtyEight</a>), a US-based establishment that uses statistical analysis to tell the stories (Adebajo,2020), while J-Forum, an event to develop Japanese journalists’ skills and knowledge of investigative reporting, was prompted by organizations like Investigative Reporters and Editors (<a href='https://twitter.com/IRE_NICAR' class='g_2' target='blank'>@IRE_NICAR</a>) in the US and the Global Investigative Journalism Network (<a href='https://twitter.com/gijn' class='g_0' target='blank'>@gijn</a>) (Alecci, 2020).
 			</p>
 			<p>
-				Some organizations located in Europe and the US not only focus on regional affairs, but also look to matters of global reach. The Global Investigative Journalism Conference held by GIJN is the world’s largest international gathering of investigative reporters. By focusing on skills and training, the conferences help to spread state-of-the-art data journalism and promote cross-border collaboration around the world. Accounts like <a href='https://twitter.com/gijn' target='blank'>@gijn</a> and <a href='https://twitter.com/datajournalism' target='blank'>@datajournalism</a> also play an important role in connecting journalists and organizations around the world by frequently mentioning and being mentioned by these accounts.  
+				Some organizations located in Europe and the US not only focus on regional affairs, but also look to matters of global reach. The Global Investigative Journalism Conference held by GIJN is the world’s largest international gathering of investigative reporters. By focusing on skills and training, the conferences help to spread state-of-the-art data journalism and promote cross-border collaboration around the world. Accounts like <a href='https://twitter.com/gijn' class='g_0' target='blank'>@gijn</a> and <a href='https://twitter.com/datajournalism' class='g_3' target='blank'>@datajournalism</a> also play an important role in connecting journalists and organizations around the world by frequently mentioning and being mentioned by these accounts.  
 			</p>
 		</div>
 	</div>

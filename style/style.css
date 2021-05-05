@@ -47,13 +47,13 @@ svg {
 
 svg.cluster_pic {
 	margin: 6px;
-	width: 300px;
+	width: 360px;
 	height: 340px;
 }
 
 svg.cluster_pic_small {
 	margin: 6px;
-	width: 300px;
+	width: 360px;
 	height: 200px;
 }
 
@@ -266,6 +266,13 @@ span.material-icons {
 	font-weight: 500;
 }
 
+@media only screen and (min-width: 800px) {
+
+	.node text {
+		font-size: 8pt;
+	}
+}
+
 @media only screen and (min-width: 1200px) {
 	main {
 		width: 50vw;
@@ -276,8 +283,22 @@ span.material-icons {
 		height: 320px;
 	}
 
-	.node {
+	.node text {
 		font-size: 12.5pt;
+	}
+}
+
+@media only screen and (min-width: 1600px) {
+	.node text {
+		font-size: 16pt;
+	}
+
+	.cluster_pic .node text {
+		font-size: 12pt;
+	}
+
+	.cluster_pic_small .node text {
+		font-size: 11pt;
 	}
 }
 
@@ -286,7 +307,7 @@ span.material-icons {
 		width: 100vw;
 		margin-left: 0;
 	}
-	.node {
+	.node text {
 		font-size: 6pt;
 	}
 
