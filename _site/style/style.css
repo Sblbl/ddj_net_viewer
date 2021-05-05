@@ -210,11 +210,17 @@ table .row_n {
 }
 
 #group_legend p {
-	margin-top: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-top: 2pt;
 	margin-bottom: 0;
 	font-family: Roboto;
 	font-size: 10pt;
 	font-weight: 300;
+}
+
+#group_legend :first-child {
+	padding: 0;
 }
 
 #legend {
@@ -232,6 +238,7 @@ table .row_n {
 
 #legend h5 {
 	margin: 0;
+	padding: 0;
 	font-family: 'Roboto';
 }
 
@@ -244,19 +251,26 @@ table .row_n {
 }
 
 .legend_info {
-	margin-top: 4pt;
+	margin: 0;
+	padding: 6pt 0 0;
 	text-align: left;
+}
+
+#legend :first-child {
+	padding: 0;
 }
 
 .legend_info h5 {
 	/*text-decoration: underline;*/
 	font-weight: 700; 
 	margin: 0;
+	padding: 0;
 }
 
 .legend_info p {
 	font-size: 10pt;
-	margin-top: 0;
+	padding: 0;
+	margin: 0;
 }
 
 span.material-icons {
