@@ -33,7 +33,7 @@ h1, h2, h3, h4, h5 {
 }
 
 main {
-	padding: 36px 36px 84px 36px;
+	padding: 48px 36px 84px 36px;
 	width: 70vw;
 	background-color: #FFF;
 	margin-left: 15vw;
@@ -115,9 +115,15 @@ table .row_n {
 
 
 /*SECTION*/
+.breaker {
+	background-color: #FFF;
+	height: 48px;
+}
+
 .section {
 	text-align: center;
-	padding-bottom: 48px;
+	/*padding-bottom: 48px;*/
+	background-color: #FFF;
 }
 
 .section h2 {
@@ -134,14 +140,14 @@ table .row_n {
 .section h5 {
 	font-family: 'IBM Plex Serif';
 	font-size: 16px;
-	/*margin-top: 4pt;*/
+	padding-top: 4pt;
 }
 
 .section p {
 	text-align: left;
 	font-family: 'IBM Plex Serif';
 	margin-top: 8pt;
-	margin-bottom: 16pt;
+	padding-bottom: 12pt;
 }
 
 .section li {
@@ -155,7 +161,7 @@ table .row_n {
 	width: 100%;
 	/*max-width: 640px;*/
 	text-align: left;
-	margin-bottom: 24px;
+	padding-bottom: 24px;
 }
 
 .texts p {
