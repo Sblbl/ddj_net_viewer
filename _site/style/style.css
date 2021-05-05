@@ -62,6 +62,12 @@ svg.small_viz {
 	height: 220px;
 }
 
+svg.protocol {
+	margin: 6px 0;
+	width: 100%;
+	height: auto;
+}
+
 a {
 	white-space: nowrap;
 	color: #000;
