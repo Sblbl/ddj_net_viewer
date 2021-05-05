@@ -96,7 +96,7 @@ layout: default
 		<table>
 			<tr class='table_header'>
 				<th class='header_nums'>#</th>
-				<th>hastag</th>
+				<th>hashtag</th>
 				<th>freq.</th>
 			</tr>
 			<tr>
@@ -177,7 +177,7 @@ layout: default
 		<table>
 			<tr class='table_header'>
 				<th class='header_nums'>#</th>
-				<th>hastag</th>
+				<th>hashtag</th>
 				<th>freq.</th>
 			</tr>
 			<tr>
@@ -247,7 +247,7 @@ layout: default
 		<table>
 			<tr class='table_header'>
 				<th class='header_nums'>#</th>
-				<th>hastag</th>
+				<th>hashtag</th>
 				<th>freq.</th>
 			</tr>
 			<tr>
@@ -318,7 +318,7 @@ layout: default
 		<table>
 			<tr class='table_header'>
 				<th class='header_nums'>#</th>
-				<th>hastag</th>
+				<th>hashtag</th>
 				<th>freq.</th>
 			</tr>
 			<tr>
@@ -390,7 +390,7 @@ layout: default
 		<table>
 			<tr class='table_header'>
 				<th class='header_nums'>#</th>
-				<th>hastag</th>
+				<th>hashtag</th>
 				<th>freq.</th>
 			</tr>
 			<tr>
@@ -461,7 +461,7 @@ layout: default
 		<table>
 			<tr class='table_header'>
 				<th class='header_nums'>#</th>
-				<th>hastag</th>
+				<th>hashtag</th>
 				<th>freq.</th>
 			</tr>
 			<tr>
@@ -535,7 +535,7 @@ layout: default
 		<table>
 			<tr class='table_header'>
 				<th class='header_nums'>#</th>
-				<th>hastag</th>
+				<th>hashtag</th>
 				<th>freq.</th>
 			</tr>
 			<tr>
@@ -574,7 +574,7 @@ layout: default
 		<table>
 			<tr class='table_header'>
 				<th class='header_nums'>#</th>
-				<th>hastag</th>
+				<th>hashtag</th>
 				<th>freq.</th>
 			</tr>
 			<tr>
@@ -651,7 +651,7 @@ layout: default
 		<table>
 			<tr class='table_header'>
 				<th class='header_nums'>#</th>
-				<th>hastag</th>
+				<th>hashtag</th>
 				<th>frequency</th>
 			</tr>
 			<tr>
