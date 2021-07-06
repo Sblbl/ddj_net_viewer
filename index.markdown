@@ -8,9 +8,9 @@ layout: default
 	<p>
 		This research was realised by Marta Fioravanti, Tong Zhang, Weixuan Yang for the Data Journalism module at King's College London, MA in Digital Humanities.
 	</p>
-	<p>
+	<!-- <p>
 		The project folder can be accessed <a href='https://drive.google.com/drive/folders/1WXYNyHFySH_r_8CM6M6sdT0XfeC4CP9Q?usp=sharing'>here</a>.
-	</p>
+	</p> -->
 </div>
 <div id='introduction' class='section'>
 	<h2>Introduction</h2>
